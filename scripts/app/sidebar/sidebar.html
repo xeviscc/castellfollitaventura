@@ -1,0 +1,82 @@
+<div ng-controller="SidebarController">
+    <a id="three-line-menu" href="#" class="nav-toggle" aria-hidden="false" ng-click="showMenu()"></a>
+    <div id="overlay-left" class="overlay" ng-click="hideMenu()"></div>
+    <div class="sidebar-left">
+        <ul class="sidebar-nav-left">
+            <li id="senderisme" class="menu-item">
+                <a href="#" data-target="#senderisme" ng-click="goTo('senderisme', '')">{{'global.sidebar.senderisme' | translate}}</a>
+            </li>
+            <li id="bicicletese" class="menu-item">
+                <a href="#" data-target="#bicicletese" ng-click="goTo('bicicletese', '')">{{'global.sidebar.bicicletese' | translate}}</a>
+            </li>
+            <li id="segway" class="menu-item">
+                <a href="#" data-target="#segway" ng-click="goTo('segway', '')">{{'global.sidebar.segway' | translate}}</a>
+            </li>
+            <!--
+            <li id="btt" class="menu-item">
+                <a href="#" data-target="#btt" ng-click="goTo('btt', '')">{{'global.sidebar.btt' | translate}}</a>
+            </li>
+            -->
+            <li id="gimcanabtt" class="menu-item">
+                <a href="#" data-target="#gimcanabtt" ng-click="goTo('gimcanabtt', '')">{{'global.sidebar.gimcanabtt' | translate}}</a>
+            </li>
+            <li id="padel" class="menu-item">
+                <a href="#" data-target="#padel" ng-click="goTo('padel', '')">{{'global.sidebar.padel' | translate}}</a>
+            </li>
+            <li id="escaperoom" class="menu-item">
+                <a href="#" data-target="#escaperoom" ng-click="goTo('escaperoom', '')">{{'global.sidebar.escaperoom' | translate}}</a>
+            </li>
+            <li id="paintball" class="menu-item">
+                <a href="#" data-target="#paintball" ng-click="goTo('paintball', '')">{{'global.sidebar.paintball' | translate}}</a>
+            </li>
+            <li id="laser" class="menu-item">
+                <a href="#" data-target="#laser" ng-click="goTo('laser', '')">{{'global.sidebar.laser' | translate}}</a>
+            </li>
+            <li id="buggies" class="menu-item">
+                <a href="#" data-target="#buggies" ng-click="goTo('buggies', '')">{{'global.sidebar.buggies' | translate}}</a>
+            </li>
+        </ul>
+        <br/>
+        <ul class="sidebar-nav-left">
+            <!--
+            <li id="packallotjament" class="menu-item-pack">
+                <a href="#" data-target="#packallotjament" ng-click="goTo('packallotjament', 'pack')">Pack allotjament</a>
+            </li>
+            -->
+            <li id="packbuggies" class="menu-item-pack">
+                <a href="#" data-target="#packbuggies" ng-click="goTo('packbuggies', 'pack')">{{'global.sidebar.packbuggies' | translate}}</a>
+            </li>
+            <li id="packdespedida" class="menu-item-pack">
+                <a href="#" data-target="#packdespedida" ng-click="goTo('packdespedida', 'pack')">{{'global.sidebar.packdespedida' | translate}}</a>
+            </li>
+            <li id="packempresa" class="menu-item-pack">
+                <a href="#" data-target="#packempresa" ng-click="goTo('packempresa', 'pack')">{{'global.sidebar.packempresa' | translate}}</a>
+            </li>
+            <li id="packdinar" class="menu-item-pack">
+                <a href="#" data-target="#packdinar" ng-click="goTo('packdinar', 'pack')">{{'global.sidebar.packdinar' | translate}}</a>
+            </li>
+            <!--
+            <li id="pack3" class="menu-item-pack">
+                <a href="#" data-target="#pack3" ng-click="goTo('pack3')">Pack complet</a>
+            </li>
+
+            <li id="pack4" class="menu-item-pack">
+                <a href="#" data-target="#pack4" ng-click="goTo('pack4')">PACK 4</a>
+            </li>
+            <li id="pack5" class="menu-item-pack">
+                <a href="#" data-target="#pack5" ng-click="goTo('pack5')">PACK 5</a>
+            </li>
+            -->
+        </ul>
+        <br/>
+        <br/>
+        <br/>
+        <ul class="sidebar-nav-left">
+            <li id="feina" class="menu-item-feina">
+                <a href="#" data-target="#feina" ng-click="goTo('feina', 'feina')">
+                    <i class="fa fa-briefcase"></i> {{'global.sidebar.feina.1' | translate}}<br/>{{'global.sidebar.feina.2' | translate}}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

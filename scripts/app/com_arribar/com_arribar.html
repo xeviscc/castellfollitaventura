@@ -1,0 +1,42 @@
+<div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+            <br/>
+            <h1 translate="com_arribar.titol">Com arribar?</h1>
+            <br/>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <input id="fromCity" ng-model="fromCity" class="form-control" type="text" placeholder="{{ 'com_arribar.input.placeholder' | translate}}" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" ng-click="showMap()" translate="com_arribar.input.boto">Veure itinerari!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<div>
+    <div class="row">
+        <div class="col-xs-12">
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="staticmap">
+                        <iframe style="border: 0;"
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCrG2RnB8xMIT6B1FZa5WHAclVLWfdjwwY&amp;q=Castellfollit%20Aventura&amp;maptype=satellite&amp;zoom=15"
+                                height="400"
+                                width="100%"
+                                frameborder="0"
+                                allowfullscreen="allowfullscreen">
+                        </iframe>
+                    </div>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,57 @@
+<div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+            <br/>
+            <h1 translate="segway.titol">Segway</h1>
+            <br/>
+            <p translate="segway.text1">
+                Passar-t’ho bé d’una manera diferent està a les teves mans. Gaudeix d'unes hores de ruta per la natura amb aquests fantàstics aparells.
+            </p>
+            <p translate="segway.text2">
+                Les rutes duren entre dues i tres hores aproximadament. Per a rutes més llargues mirar taula de preus.
+            </p>
+            <h4 translate="segway.preus.0">Preus</h4>
+            <p>
+            <ul>
+                <li translate="segway.preus.1">
+                    2 hores: 55&euro;
+                </li>
+                <li translate="segway.preus.2">
+                    3 hores: 65&euro;
+                </li>
+                <li translate="segway.preus.3">
+                    Més de 3 hores: 80&euro;
+                </li>
+                <li translate="segway.preus.4">
+                    Tot el dia: 120&euro;
+                </li>
+            </ul>
+            </p>
+
+            <p translate="segway.text3">
+                Es recomana portar guants.
+            </p>
+            <p translate="segway.maxim">
+                * Màxim per a grups de 35 persones.
+            </p>
+            <p translate="segway.antelacio">
+                * Les reserves s'han de fer amb 15 dies d'antelació.
+            </p>
+            <p translate="segway.text5">
+                Mira les nostres fotografies aquí:
+            </p>
+            <br/>
+            <div class="row">
+                <div class="col-xs-6 totes-fotos" ng-repeat="foto in fotos">
+                    <a colorbox="{{foto.gran}}" class="segway-group" rel="group1" href="#" title="{{foto.title}}">
+                        <img class="foto-petita" class="alignnone size-medium wp-image-56"
+                             ng-src="{{foto.petita}}"
+                             alt="{{foto.alt}}" />
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+<div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1" ng-show="enviat">
+            <br>
+            <br>
+            <div class="alert alert-success" translate="feina.gracies">
+                <strong>Moltes gràcies!</strong> Ben aviat ens possarem en contacte amb tu.
+            </div>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1" ng-hide="enviat">
+            <br>
+            <h1 translate="feina.titol">Feina</h1>
+            <br>
+            <p translate="feina.text1">
+                Estem interessats en persones dinàmiques per a portar grups a fer senderisme i explicar-los una mica sobre l'entorn.
+                S'hauria d'explicar una mica sobre la flora i la fauna, així com una mica d'història quan es passi per les fortificacions.
+                Els textos es proporcionaran.
+            </p>
+            <p translate="feina.text2">
+                Aquestes persones haurien de tenir algun títol de monitor, monitor de lleure o monitor d'esport.
+            </p>
+            <p translate="feina.idiomes">
+                Es valorarà molt positivament que la persona parli algun idioma estranger.
+            </p>
+            <br>
+            <form name="form" role="form" novalidate >
+
+                <div class="form-group">
+                    <label translate="feina.form.nom">Nom *</label>
+                    <input type="text" class="form-control" name="name" placeholder="{{'feina.form.nom.placeholder' | translate}}"
+                           ng-model="feina.nom" required>
+                </div>
+                <div class="form-group">
+                    <label translate="feina.form.email">E-mail *</label>
+                    <input type="email" class="form-control" name="email" placeholder="{{'feina.form.email.placeholder' | translate}}"
+                           ng-model="feina.email" ng-minlength=5 ng-maxlength=100 required>
+                </div>
+                <div class="form-group">
+                    <label translate="feina.form.telefon">Telèfon *</label>
+                    <input type="phone" class="form-control" name="telefon" placeholder="{{'feina.form.telefon.placeholder' | translate}}"
+                           ng-model="feina.telefon" ng-minlength=5 ng-maxlength=15 required>
+                </div>
+                <div class="form-group">
+                    <label translate="feina.form.missatge">Missatge *</label>
+                    <textarea type="text" rows="6" class="form-control" name="missatge" placeholder="{{'feina.form.missatge.placeholder' | translate}}"
+                           ng-model="feina.missatge" ng-minlength=5 ng-maxlength=100 required ></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" ng-model="feina.termes" required>
+                    <label translate="feina.form.condicions">
+                        Acceptes les <a ui-sref="condicions">Condicions Generals</a>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <div vc-recaptcha key="'6LeB1BsTAAAAAHo_gzddYv_WnbaS3_Uhzr72JZeD'" ></div>
+                </div>
+                <button type="submit" ng-disabled="form.$invalid" class="btn btn-success" ng-click="sendMail()" translate="feina.form.boto">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>

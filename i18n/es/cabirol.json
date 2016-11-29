@@ -1,0 +1,27 @@
+{
+  "cabirol": {
+    "intro": "Esta ruta circular, se sumerge en la naturaleza del Valle, pasando por diferentes senderos donde se podrá ver la flora y la fauna de la zona, así como las espectaculares vistas del pueblo.",
+    "durada": "3:30h-4:00h aprox. (2:30h sin paradas)",
+    "dificultat": "Mediana/Moderada. Ruta adecuada para personas que pueden realizar caminatas de 3-4h sin problemas.",
+    "distancia": "10 km",
+    "desnivell": "800 m.",
+    "recorregut.1": "La excursión es circular y empieza siguiendo un sendero escondido en un barranco. Nos dirigimos al punto más elevado del pueblo donde hay el repetidor de telecomunicaciones donde disfrutaremos de unas vistas fantásticas, en un día despejado se ven el Pedraforca perfectamente. Bajaremos hacia el valle del torrente Magrà donde iremos por un sendero que nos llevará a la ermita de Sant Pere de Magrà y a la fuente del Coure. Cogeremos una pista que nos llevará de vuelta a Castellfollit.",
+
+    "epoca": "Todo el año.",
+    "hora": "A las 9 de la mañana al aparcamiento delante del Bar Can Pep.",
+    "material": "Es imprescindible llevar ropa de montaña para realizar la ruta, así como calzado adecuado y cómodo.",
+    "alimentacio": "Es necesario traerse bebida o agua y la comida que cada uno considere oportuna.",
+    "nota": "<i>Nota: Si alguna persona toma algún tipo de medicación, sufre alguna patología o ha tenido alguna lesión recientemente, por favor comentarlo en el momento de la reserva.</i>",
+    "preu": "18€/persona (IVA incluido).",
+    "recorregut.2": "<span style=\"font-size: 12px;\"><em>* Nota: El itinerario previsto podrá variar ligeramente en función de las condiciones meteorológicas y del estado del terreno.</em></span>",
+    "aclaracio": "Para grupos cerrados que quieran una salida privada, por favor consultarnos.<br/>El precio incluye la planificación i preparación de la ruta, la realización de la ruta y el seguro de accidentes para actividades realizadas en el medio natural.",
+    "descompte": "<i>* Hasta 10 años, descuentos de 4€ en el precio.</i>",
+    "recorregut": "<b>RECORRIDO</b>",
+    "grupminim": "<i>* Grupo mínimo necesario para realizar la actividad: 2 personas.</i>",
+    "informacio": "<b>INFORMACIÓN Y RESERVAS</b>",
+    "consulta": "Para cualquier consulta no dudéis en contactar con nosotros enviando un email a <a href=\"mailto:oci@castellfollitaventura.cat\" target=\"_top\" data-target=\"_top\"><b>oci@castellfollitaventura.cat</b></a>.",
+    "allotjaments": "<b>ALOJAMIENTOS PRÓXIMOS</b>",
+    "punt": "<b>PUNTO DE ENCUENTRO</b>",
+    "punt.text": "A las 9 de la mañana al aparcamiento delante del Bar Can Pep."
+  }
+}

@@ -1,0 +1,17 @@
+<div class="slider" >
+    <div class="slide" ng-repeat="image in images" ng-show="image.visible" >
+        <a href="#" ng-click="goToPromo(image.href)">
+            <img ng-src="{{image.src}}" width="{{image.width}}" height="{{image.height}}" />
+        </a>
+    </div>
+    <!--
+    <div class="arrows">
+        <a href="#" ng-click="prev()">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" ng-click="next()">
+            <i class="fa fa-arrow-right"></i>
+        </a>
+    </div>
+    -->
+</div>

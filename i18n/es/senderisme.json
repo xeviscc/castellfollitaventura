@@ -1,0 +1,32 @@
+{
+  "senderisme": {
+    "titol": "Senderismo",
+    "text1": "Si quieres disfrutar del patrimonio cultural y natural de nuestro municipio, vena camiar con nosotros.",
+    "text2": "Mínimo 4 personas.",
+    "ruta": {
+      "cabirol": "Ruta \"Siguiendo los pasos del corzo\"",
+      "fortificacions": "Ruta \"de las Fortificaciones\""
+    },
+    "comu" : {
+      "perque": "PORQUE HACER ESTA RUTA?",
+      "fitxa": "<b>FICHA RESUMEN</b>",
+      "durada": "<b>Duración:</b>",
+      "dificultat": "<b>Dificultad:</b>",
+      "distancia": "<b>Distancia:</b>",
+      "desnivell": "<b>Desnivel acc.:</b>",
+      "epoca": "<b>Época:</b>",
+      "hora": "<b>Hora y lugar:</b>",
+      "material": "<b>Material:</b>",
+      "alimentacio": "<b>Alimentación:</b>",
+      "preu": "<b>Precio:</b>",
+      "descompte": "<i>* Hasta 10 años, descuento de 4 en el precio.</i>",
+      "recorregut": "<b>RECORRIDO</b>",
+      "grupminim": "<i>* Grupo mínimo necesario para realizar la actividad: 2 personas.</i>",
+      "informacio": "<b>INFORMACIÓN Y RESERVAS</b>",
+      "consulta": "Para cualquier consulta no dudeis en contactarnos enviando un email a <a href=\"mailto:oci@castellfollitaventura.cat\" target=\"_top\" data-target=\"_top\"><b>oci@castellfollitaventura.cat</b></a>.",
+      "allotjaments": "<b>ALOJAMIENTOS PRÓXIMOS</b>",
+      "punt": "<b>PUNTO DE ENCUENTRO</b>",
+      "punt.text": "A las 9 de la mañana al aparcamiento delante del Bar Can Pep"
+    }
+  }
+}

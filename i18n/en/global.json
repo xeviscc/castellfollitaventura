@@ -1,0 +1,55 @@
+{
+  "global": {
+    "footer" : {
+      "copyright": "Copyright &copy; Castellfollit Aventura 2016",
+      "avis": "Avís Legal",
+      "cancelacions": "Cancel·lacions",
+      "garantia": "Garanties",
+      "condicions": "Condicions Generals"
+    },
+    "menu": {
+      "entorn": "Entorn",
+      "nosaltres": "Nosaltres",
+      "com_arribar": "Localització",
+      "contacte": "Contacte",
+      "botiga": "La Nostra Botiga"
+    },
+    "sidebar": {
+      "senderisme": "Senderisme",
+      "bicicletese": "BTT Elèctriques",
+      "segway": "Segway",
+      "btt": "BTT",
+      "gimcanabtt": "Gimcana BTT",
+      "padel": "Pàdel/Tennis",
+      "buggies": "Buggies",
+      "packempresa": "Pack empresa",
+      "packdinar": "Dinar/esmorzar",
+      "feina.1": "Vols treballar",
+      "feina.2": "amb nosaltres?",
+      "feina.mobil": "Treballa amb nosaltres"
+    },
+    "sidebar_r": {
+      "reserva": "Reserva ara!",
+      "gracies": "Moltes gràcies!",
+      "missatge": "Ens posarem en contacte amb tu el mes aviat possible!",
+      "form" :{
+        "head": "<b>A Castellfollit Aventura:</b>",
+        "nom":"Nom *",
+        "email":"E-mail *",
+        "telefon":"Telèfon *",
+        "empresa":"Nom empresa",
+        "missatge":"Missatge *",
+        "boto": "Enviar"
+      },
+      "collaboren" : "Col·laboren:"
+    },
+    "header": {
+      "menu": "Menú"
+    },
+    "cookie":{
+      "missatge": "This website uses cookies to store the language and other information for to have a proper behaviour.",
+      "botook": "I understand",
+      "avis": "Legal Notice"
+    }
+  }
+}

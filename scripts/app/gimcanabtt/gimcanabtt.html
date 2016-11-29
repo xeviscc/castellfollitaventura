@@ -1,0 +1,34 @@
+<div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+            <br/>
+            <h1 translate="gimcanabtt.titol">Gimcana BTT</h1>
+            <br/>
+            <p translate="gimcanabtt.text1">
+                Si vols conèixer el nostre municipi mentre gaudeixes de pistes i enigmes, aquesta és la teva.
+            </p>
+            <p translate="gimcanabtt.text2">
+                Et proposem una manera diferent de recórrer el indrets més emblemàtics del poble tot gaudint del paissatge i de la comoditat d'una bicicleta elèctrica.
+            </p>
+            <p translate="gimcanabtt.maxim">
+                * Màxim per a grups de 5 persones.
+            </p>
+            <p translate="gimcanabtt.antelacio">
+                * Les reserves s'han de fer amb una setmana d'antelació.
+            </p>
+            <p translate="gimcanabtt.text3">
+                Fotografies de zones que poden estar en el recorregut:
+            </p>
+            <br/>
+            <div class="row">
+                <div class="col-xs-6 totes-fotos" ng-repeat="foto in fotos">
+                    <a colorbox="{{foto.gran}}" class="segway-group" rel="group1" href="#" title="{{foto.title}}">
+                        <img class="foto-petita" class="alignnone size-medium wp-image-56"
+                             ng-src="{{foto.petita}}"
+                             alt="{{foto.alt}}" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

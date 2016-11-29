@@ -1,0 +1,21 @@
+{
+  "padel": {
+    "titol": "Tenis/Pádel",
+    "text1": "Disfruta del deporte del momento.",
+    "padel": {
+      "0": "Pádel (1h)",
+      "1": "Pack 4 personas: Alquiler de pista + palas pádel + pelotas: 35&euro;",
+      "2": "Alquiler de pista: 4&euro;/persona",
+      "3": "Alquiler de palas: 6&euro;/persona",
+      "4": "Alquiler de pelotas: 0.5&euro;/persona"
+    },
+    "tennis": {
+      "0": "Tenis (1h)",
+      "1": "Pack 2 persones: Alquiler de pista + raqueta tenis + pelotas: 10&euro;",
+      "2": "Pack 4 personas: Alquiler de pista + raqueta tenis + pelotas: 20&euro;",
+      "3": "Alquiler de pista: 2&euro;/persona",
+      "4": "Alquiler de raqueta: 3&euro;/persona",
+      "5": "Alquiler de pelotas: 0.5&euro;/persona"
+    }
+  }
+}

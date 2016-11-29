@@ -1,0 +1,27 @@
+{
+  "fortificacions": {
+    "intro": "Aquesta ruta et permetra disfrutar tant de les fantàstiques vistes de la vall del Riubregós, com del seu conjunt fortificat, conformat per les dues torres i el Castell de Sant Esteve.",
+    "durada": "2:30h-3:00h aprox. (2:00h sense parades)",
+    "dificultat": "Mitjana/Baixa. Ruta adequada per a persones que poden realitzar caminades de 2-3h sense problemes.",
+    "distancia": "5,5 km",
+    "desnivell": "500 m.",
+    "recorregut.1": "L’excursió és circular i comença amb la visita de la torre del Ballester, també anomenada torre rodona per la seva planta circular. És segueix per un corriol, on és pot veure tota la vall del Riu Bregós i el Priorat de Santa María del segle XI-XII d’estil romànic, seguint el corriol, anirem a parar a la fàbrica de ciment Lafac, la principal indústria del poble. Ens enfilarem cap a la carena que ens portarà directament a la torre del Raval, amb planta en forma de proa de vaixell. Seguirem el corriol en direcció al Castell de Sant Esteve, on podrem gaudir d’unes fantàstiques vistes del poble i les valls. Es realitzarà una visita al Castell i a la Sala dels grafits.",
+
+    "epoca": "Tot l'any.",
+    "hora": "A les 9 del matí a l’aparcament davant del Bar Can Pep",
+    "material": "És imprescindible portar roba de muntanya per realitzar la ruta, així com un calçat adequat i còmode.",
+    "alimentacio": "Cal portar beguda o aigua i el menjar que cadascú consideri oportú.",
+    "nota": "<i>Nota: Si alguna persona pren algun tipus de medicació, pateix alguna patologia o ha tingut alguna lesió recentment, si us plau comenteu-ho en el moment de fer la reserva.</i>",
+    "preu": "20€/persona (IVA inclòs).",
+    "recorregut.2": "<span style=\"font-size: 12px;\"><em>* Nota: L’itinerari previst podrà variar lleugerament en funció de les condicions meteorològiques i de l’estat del terreny.</em></span>",
+    "aclaracio": "Per a grups tancats que vulguin una sortida privada, si us plau consulteu-nos.<br/>El preu inclou la planificació i preparació de la ruta, la realització de la ruta i l’assegurança d’accidents per a activitats realitzades en el medi natural.",
+    "descompte": "<i>* Fins a 10 anys, descompte de 4€ en el preu.</i>",
+    "recorregut": "<b>RECORREGUT</b>",
+    "grupminim": "<i>* Grup mínim necessari per realitzar-se l’activitat: 2 persones.</i>",
+    "informacio": "<b>INFORMACIÓ I RESERVES</b>",
+    "consulta": "Per a qualsevol consulta no dubteu en contactar-nos enviant un email a <a href=\"mailto:oci@castellfollitaventura.cat\" target=\"_top\" data-target=\"_top\"><b>oci@castellfollitaventura.cat</b></a>.",
+    "allotjaments": "<b>ALLOTJAMENTS PROPERS</b>",
+    "punt": "<b>PUNT DE TROBADA</b>",
+    "punt.text": "A les 9 del matí a l’aparcament davant del Bar Can Pep"
+  }
+}

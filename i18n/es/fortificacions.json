@@ -1,0 +1,27 @@
+{
+  "fortificacions": {
+    "intro": "Esta ruta te permitirá disfrutar tanto de las fantásticas vistas del valle del rio Llobregós, como de su conjunto fortificado, con sus dos torres y  el Castell de Sant Esteve.",
+    "durada": "2:30h-3:00h aprox. (2:00h sin paradas)",
+    "dificultat": "Mediana/Baja. Ruta adecuada para personas que puedan realizar caminatas de 2-3h sin problemas.",
+    "distancia": "5,5 km",
+    "desnivell": "500 m.",
+    "recorregut.1": "La excursión es circular y empieza con la visita a la torre del Ballester, también nombrada torre redonda por su planta circular. Se sigue por un sendero, donde se puede ver todo el valle del rio Llobregós y el Priorat de Santa Maria del siglo XI-XII de estilo románico, siguiendo el sendero iremos a la fábrica de cemento Lafac, la principal industria del pueblo. Subiremos hacia la carena que nos llevará directamente a la torre del Raval, con planta en forma de proa de barco. Seguiremos el sendero dirección al Castell de Sant Esteve, donde podremos disfrutar de unas fantásticas vistas del pueblo i los valles. Se realizará una visita al Castell y a la sala de los grafitis.",
+
+    "epoca": "Todo el año.",
+    "hora": "A las 9 de la mañana al aparcamiento delante del Bar Can Pep.",
+    "material": "Es imprescindible llevar ropa de montaña para realizar la ruta, así como calzado adecuado y cómodo.",
+    "alimentacio": "Es necesario traerse bebida o agua y la comida que cada uno considere oportuna.",
+    "nota": "<i>Nota: Si alguna persona toma algún tipo de medicación, sufre alguna patología o ha tenido alguna lesión recientemente, por favor comentarlo en el momento de la reserva.</i>",
+    "preu": "18€/persona (IVA incluido).",
+    "recorregut.2": "<span style=\"font-size: 12px;\"><em>* Nota: El itinerario previsto podrá variar ligeramente en función de las condiciones meteorológicas y del estado del terreno.</em></span>",
+    "aclaracio": "Para grupos cerrados que quieran una salida privada, por favor consultarnos.<br/>El precio incluye la planificación i preparación de la ruta, la realización de la ruta y el seguro de accidentes para actividades realizadas en el medio natural.",
+    "descompte": "<i>* Hasta 10 años, descuentos de 4€ en el precio.</i>",
+    "recorregut": "<b>RECORRIDO</b>",
+    "grupminim": "<i>* Grupo mínimo necesario para realizar la actividad: 2 personas.</i>",
+    "informacio": "<b>INFORMACIÓN Y RESERVAS</b>",
+    "consulta": "Para cualquier consulta no dudéis en contactar con nosotros enviando un email a <a href=\"mailto:oci@castellfollitaventura.cat\" target=\"_top\" data-target=\"_top\"><b>oci@castellfollitaventura.cat</b></a>.",
+    "allotjaments": "<b>ALOJAMIENTOS PRÓXIMOS</b>",
+    "punt": "<b>PUNTO DE ENCUENTRO</b>",
+    "punt.text": "A las 9 de la mañana al aparcamiento delante del Bar Can Pep."
+  }
+}

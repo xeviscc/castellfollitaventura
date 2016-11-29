@@ -1,0 +1,25 @@
+{
+  "packempresa": {
+    "titol": "Pack empresa",
+    "text1": "Disponemos de diferentes packs para empresas, consultar a continuación.",
+    "text2": "Disfrutar de un día diferente y con buena comida.",
+    "explicacio": "Para grupos de más de 18, esté se dividirá, ya que el máximo por actividad es 18 personas. Así mientras unos hacen Segway o Senderismo los otros puede hacer Paintball y viceversa. En otros cases, un pequeño grupo de máximo 6 personas puede cambiar el Paintball por Room Escape.",
+    "avis": {
+      "acreditar": "* La empresa tendrá que acreditar que el grupo viene en nombre suyo.",
+      "grupgran": "* En el caso de grupos mayores de 24, habrá un suplemento de 5 euros/persona por logística y personal."
+    },
+    "fotos": "Mira nuestras fotos aquí:",
+    "pack1": {
+      "0":"Pack 1 (90&euro;)",
+      "1":"Segway",
+      "2":"Paintball",
+      "3":"Almuerzo"
+    },
+    "pack2": {
+      "0":"Pack 2 (53&euro;)",
+      "1":"Senderismo",
+      "2":"Paintball",
+      "3":"Almuerzo"
+    }
+  }
+}

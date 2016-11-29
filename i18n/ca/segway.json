@@ -1,0 +1,18 @@
+{
+  "segway": {
+    "titol": "Segway",
+    "text1": "Passar-t’ho bé d’una manera diferent està a les teves mans. Gaudeix d'unes hores de ruta per la natura amb aquests fantàstics aparells. En totes les rutes hi haurà un guia.",
+    "text2": "Les rutes duren entre dues i tres hores aproximadament. Per a rutes més llargues mirar taula de preus.",
+    "text3": "Es recomana portar guants.",
+    "maxim": "* Els grups han de ser de mínim 6 persones i màxim de 35.",
+    "antelacio": "* Les reserves s'han de fer amb 15 dies d'antelació.",
+    "text5": "Mira les nostres fotografies aquí:",
+    "preus": {
+      "0": "Preus",
+      "1": "2 hores: 55&euro;",
+      "2": "3 hores: 65&euro;",
+      "3": "Més de 3 hores: 80&euro;",
+      "4": "Tot el dia: 120&euro;"
+    }
+  }
+}

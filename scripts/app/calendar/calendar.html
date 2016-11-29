@@ -1,0 +1,58 @@
+<div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+            <br/>
+            <h1>Reserves</h1>
+            <br/>
+            <p>
+                Disponibilitat.
+            </p>
+            <p>
+                <div class="row" >
+Mostrar:
+            <a href="#" ng-click="matinada()" >Matinada</a>
+            <a href="#" onclick="" >Mati</a>
+            <a href="#" onclick="" >Migdia</a>
+            <a href="#" onclick="" >Tarda</a>
+            <a href="#" onclick="" >Vespre</a>
+            <a href="#" onclick="" >Nit</a>
+            <div class="col-xs-6" >
+                <h2>Avui</h2>
+                <table >
+                    <tr ng-repeat="hora in avui" class="{{hora.part}}">
+                        <td><input type="checkbox" ng-disabled="{{hora.ocupat}}"/></td>
+                        <td>{{hora.hora}}</td>
+                        <td ng-show="{{hora.ocupat}}" style="color: red;">OCUPAT</td>
+                        <td ng-hide="{{hora.ocupat}}" style="color: green;">DISPONIBLE</td>
+
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-xs-6">
+                <h2>Demà</h2>
+                <table>
+                    <tr ng-repeat="hora in dema">
+                        <td><input type="checkbox" ng-disabled="{{hora.ocupat}} "/></td>
+                        <td>{{hora.hora}}</td>
+                        <td ng-show="{{hora.ocupat}}" style="color: red;">OCUPAT</td>
+                        <td ng-hide="{{hora.ocupat}}" style="color: green;">DISPONIBLE</td>
+                    </tr>
+                </table>
+            </div>
+                </div>
+            </p>
+        </div>
+    </div>
+</div>
+
+CALENDAR
+<div class="row">
+<div class="col-xs-12" ><!--style="width: 945px; margin: 20px auto 0 auto;"-->
+    <ng-calendar locale="ca"
+                 events="{{ ctrl.events }}"
+                 from="from"
+                 to="to">
+    </ng-calendar>
+</div>
+</div>

@@ -1,0 +1,20 @@
+{
+  "packdespedida": {
+    "titol": "Pack despedida",
+    "text1": "",
+    "text2": "Gaudiu d’un dia diferent amb activitats i bon menjar.",
+    "explicacio": "En el cas de grups de més de 18, aquest es dividirà ja que el màxim per activitat és 18 persones. Així mentre uns fan Segway o Senderisme els altres poden fer Paintball i viceversa. En altres casos, un grup petit de màxim 6 persones pot canviar el Paintball per Room Escape.",
+    "avis": {
+      "antelacio": "* Les reserves s'han de fer amb 15 dies d'antelació i s'ha de fer una paga i senyal del 50% de l'import total.",
+      "grupgran": "* En cas de grups més grans de 24, hi haurà un suplement de 5 euros/persona per logística i personal."
+    },
+    "fotos": "Mira les nostres fotografies aquí:",
+    "pack1": {
+      "0": "Pack (105&euro;)",
+      "1": "Segway",
+      "2": "Paintball",
+      "3": "Room Escape",
+      "4": "Dinar"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+<div ng-controller="SidebarRController" class="controller-div">
+    <div class="sidebar-right" >
+        <div class="sticker-price">
+            {{preu}} {{'global.sidebar_r.reserva' | translate}}
+        </div>
+        <div class="sidebar-contact" >
+            <ul class="sidebar-nav-right" ng-hide="enviat">
+                <li class="contact-input" translate="global.sidebar_r.form.head">
+                    <b>A Castellfollit Aventura:</b>
+                </li>
+                <li class="contact-input">
+                    <input type="text" class="col-lg-10" placeholder="{{'global.sidebar_r.form.nom' | translate}}" ng-model="formulari.nom">
+                </li>
+                <li class="contact-input">
+                    <input type="text" class="col-lg-10" placeholder="{{'global.sidebar_r.form.email' | translate}}" ng-model="formulari.email">
+                </li>
+                <li class="contact-input">
+                    <input type="text" class="col-lg-10" placeholder="{{'global.sidebar_r.form.telefon' | translate}}" ng-model="formulari.telefon">
+                </li>
+                <li class="contact-input">
+                    <input type="text" class="col-lg-10" placeholder="{{'global.sidebar_r.form.empresa' | translate}}" ng-model="formulari.empresa">
+                </li>
+                <li class="contact-input">
+                    <textarea type="text" class="col-lg-10" rows="5" placeholder="{{'global.sidebar_r.form.missatge' | translate}}" ng-model="formulari.missatge" >
+                    </textarea>
+                </li>
+                <li class="contact-input">
+                    <input type="button" class="contact-button col-lg-10" value="{{'global.sidebar_r.form.boto' | translate}}" ng-click="sendMail()">
+                </li>
+            </ul>
+            <div ng-show="enviat" class="sidebar-nav-right-agraiment">
+                <b>{{'global.sidebar_r.gracies' | translate}}</b>
+                <br />
+                <br />
+                {{'global.sidebar_r.missatge' | translate}}
+            </div>
+        </div>
+    </div>
+    <div class="colaboradors-right" >
+        <h3 class="collaboren" translate="global.sidebar_r.collaboren">Col·laboren:</h3>
+        <a href="http://canpeprestaurant.com/" target="_blank">
+            <img class="alignnone size-medium wp-image-133"
+                 ng-src="{{srcBarCanPep}}" alt="Bar Can Pep" width="60%" height="60%" />
+        </a>
+    </div>
+</div>

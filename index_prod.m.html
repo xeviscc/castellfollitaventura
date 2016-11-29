@@ -1,0 +1,142 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="aventuraApp" > <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"ng-app="aventuraApp" > <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"ng-app="aventuraApp" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"ng-app="aventuraApp" > <!--<![endif]-->
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="description" content="Castellfollit Aventura us ofereix activitats d'oci per a gaudir de l'entorn, per fer-vos pujar l'adrenalina i per a tots els públics.">
+    <meta name="author" content="Castellfollit Aventura SL">
+
+    <title>Castellfollit Aventura</title>
+
+    <script type="text/javascript"><!--
+    if (screen.width > 640) {window.location = "http://castellfollitaventura.cat"+window.location.pathname;}
+    //--></script>
+    <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link async rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- To test put maing2.css -->
+    <link async rel="stylesheet" href="http://static.castellfollitaventura.cat/assets/css/main.css" />
+    <link async rel="stylesheet" href="assets/css/ngCalendar.css" />
+    <link async rel="stylesheet" href="http://static.castellfollitaventura.cat/assets/colorbox-master/example1/colorbox.css" />
+    <link async rel="stylesheet" href="http://static.castellfollitaventura.cat/assets/css/angular-cookie-law.min.css">
+
+    <link rel="canonical" href="http://castellfollitaventura.cat{{currentPath}}">
+    <base href="/" />
+</head>
+<body id="page-top" class="index container">
+<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up fa-3x"></i></a>
+
+<div class="site-wrap" ng-controller="MenuController" >
+    <div class="push-wrap">
+        <nav id="body-nav">
+            <ul>
+                <li ng-controller="HeaderController" style="height: 120px;"><slider images="images" /></li>
+                <li><a href="#" ng-click="goTo('entorn')"><i class="fa fa-leaf"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.menu.entorn' | translate}}</a></li>
+                <!--<li><a href="#" ng-click="goTo('hostalatge')"><i class="fa fa-home"></i><br/>Allotjament</a>-->
+                <li><a href="#" ng-click="goTo('nosaltres')"><i class="fa fa-info-circle"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.menu.nosaltres' | translate}}</a></li>
+                <li><a href="#" ng-click="goTo('com_arribar')"><i class="fa fa-rocket"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.menu.com_arribar' | translate}}</a></li>
+                <li><a href="#" ng-click="goTo('contacte')"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.menu.contacte' | translate}}</a></li>
+                <!--<li><a href="#" ng-click="goTo('reserves')"><i class="fa fa-calendar"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.menu.reserves' | translate}}</a></li>-->
+                <li><a href="#" ng-click="goToShop()" style="color: #a7a400;font-weight: 900;"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.menu.botiga' | translate}}</a></li>
+                <li><a href="#" data-target="#senderisme" ng-click="goTo('senderisme', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.senderisme' | translate}}</a></li>
+                <li><a href="#" data-target="#bicicletese" ng-click="goTo('bicicletese', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.bicicletese' | translate}}</a></li>
+                <li><a href="#" data-target="#segway" ng-click="goTo('segway', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.segway' | translate}}</a></li>
+                <!--<li><a href="#" data-target="#btt" ng-click="goTo('btt', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.btt' | translate}}</a></li>-->
+                <li><a href="#" data-target="#gimcanabtt" ng-click="goTo('gimcanabtt', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.gimcanabtt' | translate}}</a></li>
+                <li><a href="#" data-target="#padel" ng-click="goTo('padel', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.padel' | translate}}</a></li>
+                <li><a href="#" data-target="#escaperoom" ng-click="goTo('escaperoom', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.escaperoom' | translate}}</a></li>
+                <li><a href="#" data-target="#paintball" ng-click="goTo('paintball', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.paintball' | translate}}</a></li>
+                <li><a href="#" data-target="#laser" ng-click="goTo('laser', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.laser' | translate}}</a></li>
+                <li><a href="#" data-target="#buggies" ng-click="goTo('buggies', '')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.buggies' | translate}}</a></li>
+                <li><a href="#" data-target="#packbuggies" ng-click="goTo('packbuggies', 'pack')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.packbuggies' | translate}}</a></li>
+                <!--<li><a href="#" data-target="#packallotjament" ng-click="goTo('packallotjament', 'pack')">Pack allotjament</a></li>-->
+                <li><a href="#" data-target="#packdespedida" ng-click="goTo('packdespedida', 'pack')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.packdespedida' | translate}}</a></li>
+                <li><a href="#" data-target="#packempresa" ng-click="goTo('packempresa', 'pack')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.packempresa' | translate}}</a></li>
+                <li><a href="#" data-target="#packdinar" ng-click="goTo('packdinar', 'pack')"><i class="fa fa-caret-right"></i>&nbsp<i class="fa fa-caret-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.packdinar' | translate}}</a></li>
+                <li><a href="#" data-target="#feina" ng-click="goTo('feina', 'feina')">
+                    <i class="fa fa-briefcase"></i>&nbsp;&nbsp;&nbsp;&nbsp;{{'global.sidebar.feina.mobil' | translate}}</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <!--[if lt IE 10]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+            <!--id="wrapper"-->
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="row max-width-1200">
+                        <!-- Header -->
+                        <div class="col-xs-12">
+                            <header ui-view="header" ></header>
+                        </div>
+                    </div>
+
+                    <div class="row max-width-1200">
+                        <div ui-view="menu"></div>
+                    </div>
+
+                    <div id="content" class="row max-width-1200">
+                        <div class="content-sidebar-left">
+                            <nav ui-view="sidebar" ng-cloak="" role="navigation"></nav>
+                        </div>
+                        <div class="col-xs-12 content-middle">
+                            <div ui-view="content" ></div><!--class="well"-->
+                            <footer ui-view="footer"></footer>
+                        </div>
+
+                        <div class="content-sidebar-right">
+                            <nav ui-view="sidebar_r" ng-cloak="" role="navigation"></nav>
+                        </div>
+                    </div>
+                    <div class="row max-width-1200">
+                        <div class="col-xs-12">
+
+                        </div>
+                        <!-- TODO: Do something to fix the footer only in particular cases class="fixed-bottom" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script async src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit" defer ></script>
+
+    <!-- minimized -->
+    <script src="build/castellfollit_aventura_deps.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-animate.min.js"></script>
+
+    <script type="text/javascript" src="http://static.castellfollitaventura.cat/assets/colorbox-master/jquery.colorbox-min.js"></script>
+    <script async type="text/javascript" src="http://static.castellfollitaventura.cat/assets/colorbox-master/i18n/jquery.colorbox-ca.js"></script>
+    <script async type="text/javascript" src="http://static.castellfollitaventura.cat/assets/colorbox-master/i18n/jquery.colorbox-es.js"></script>
+
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/app.constants.js"></script>
+
+    <!-- minimized -->
+    <script src="build/castellfollit_aventura.min.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    </script>
+    <cookie-law-banner message="{{'global.cookie.missatge' | translate}}"
+                       accept-text="{{'global.cookie.botook' | translate}}"
+                       expire-days="30"
+                       policy-button="true"
+                       policy-text="{{'global.cookie.avis' | translate}}"
+                       policy-url="/avis">
+    </cookie-law-banner>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "senderisme": {
+    "titol": "Senderisme",
+    "text1": "Si vols gaudir del patrimoni cultural i natural del nostre municipi, vine a caminar amb nosaltres.",
+    "text2": "Mínim 4 persones.",
+    "ruta": {
+      "cabirol": "Ruta \"Seguint els passos del cabirol\"",
+      "fortificacions": "Ruta \"de les Fortificacions\""
+    },
+    "comu" : {
+      "perque": "PER QUÈ FER AQUESTA RUTA?",
+      "fitxa": "<b>FITXA RESUM</b>",
+      "durada": "<b>Durada:</b>",
+      "dificultat": "<b>Dificultat:</b>",
+      "distancia": "<b>Distància:</b>",
+      "desnivell": "<b>Desnivell acc.:</b>",
+      "epoca": "<b>Època:</b>",
+      "hora": "<b>Hora i lloc:</b>",
+      "material": "<b>Material:</b>",
+      "alimentacio": "<b>Alimentació:</b>",
+      "preu": "<b>Preu:</b>",
+      "descompte": "<i>* Fins a 10 anys, descompte de 4€ en el preu.</i>",
+      "recorregut": "<b>RECORREGUT</b>",
+      "grupminim": "<i>* Grup mínim necessari per realitzar-se l’activitat: 2 persones.</i>",
+      "informacio": "<b>INFORMACIÓ I RESERVES</b>",
+      "consulta": "Per a qualsevol consulta no dubteu en contactar-nos enviant un email a <a href=\"mailto:oci@castellfollitaventura.cat\" target=\"_top\" data-target=\"_top\"><b>oci@castellfollitaventura.cat</b></a>.",
+      "allotjaments": "<b>ALLOTJAMENTS PROPERS</b>",
+      "punt": "<b>PUNT DE TROBADA</b>",
+      "punt.text": "A les 9 del matí a l’aparcament davant del Bar Can Pep"
+    }
+  }
+}

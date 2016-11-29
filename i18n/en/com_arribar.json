@@ -1,0 +1,9 @@
+{
+  "com_arribar": {
+    "titol": "Com arribar?",
+    "input": {
+      "placeholder" : "Des d'on vens?",
+      "boto" : "Veure itinerari!"
+    }
+  }
+}

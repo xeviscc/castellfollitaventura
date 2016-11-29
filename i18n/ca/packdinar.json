@@ -1,0 +1,16 @@
+{
+  "packdinar": {
+    "titol": "Pack dinar/esmorzar",
+    "text1": "Si a part de gaudir amb les nostres activitats voleu gaudir d’un dinar casolà, Can Pep és el vostre lloc. En cas de no haver-hi lloc, es buscarà un altre restaurant.",
+    "dinar" : {
+      "0": "Dinar",
+      "1": "Menú Castellfollit Aventura 11 euros de dilluns a divendres.",
+      "2": "Menú Castellfollit Aventura 18 euros dissabtes, diumenges i festius."
+    },
+    "esmorzar" : {
+      "0": "Esmorzar",
+      "1": "Menú Castellfollit Aventura 6 euros de dilluns a divendres.",
+      "2": "Menú Castellfollit Aventura 8 euros dissabtes, diumenges i festius."
+    }
+  }
+}

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>http://castellfollitaventura.cat</loc>
+        <xhtml:link rel="alternate"
+                media="only screen and (max-width: 640px)"
+                href="http://m.castellfollitaventura.cat" />
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/avis</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/avis" />
+        <changefreq>weekly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/bicicletese</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/bicicletese" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <!--
+    <url>
+        <loc>http://castellfollitaventura.cat/btt</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/btt" />
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    -->
+    <url>
+        <loc>http://castellfollitaventura.cat/calendar</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/calendar" />
+        <changefreq>weekly</changefreq>
+        <priority>0.0</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/cancelacions</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/cancelacions" />
+        <changefreq>weekly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/com_arribar</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/com_arribar" />
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/condicions</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/condicions" />
+        <changefreq>weekly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/contacte</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/contacte" />
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/entorn</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/entorn" />
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/escaperoom</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/escaperoom" />
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/feina</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/feina" />
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/garantia</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/garantia" />
+        <changefreq>weekly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/gimcanabtt</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/gimcanabtt" />
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/buggies</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/buggies" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/nosaltres</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/nosaltres" />
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/laser</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/laser" />
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/packdespedida</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/packdespedida" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/packdinar</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/packdinar" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/packempresa</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/packempresa" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/padel</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/padel" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/paintball</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/paintball" />
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/segway</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/segway" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/senderisme</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/senderisme" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/senderisme/cabirol</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/senderisme/cabirol" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/senderisme/fortificacions</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/senderisme/fortificacions" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

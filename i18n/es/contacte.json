@@ -1,0 +1,20 @@
+{
+  "contacte": {
+    "titol": "Contacto",
+    "gracies": "<strong>Muchas gracias!</strong> Muy pronto nos pondremos encontacto contigo.",
+    "form": {
+      "nom": "Nombre *",
+      "nom.placeholder": "Nombre",
+      "email": "E-mail *",
+      "email.placeholder": "E-mail",
+      "telefon": "Teléfono *",
+      "telefon.placeholder": "Teléfono",
+      "assumpte": "Asunto *",
+      "assumpte.placeholder": "Asunto",
+      "missatge": "Mensaje *",
+      "missatge.placeholder": "Mensaje",
+      "condicions": "Aceptas las <a href=\"condicions\">Condiciones Generales</a>",
+      "boto": "Enviar"
+    }
+  }
+}

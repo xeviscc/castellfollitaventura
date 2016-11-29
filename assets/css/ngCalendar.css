@@ -1,0 +1,279 @@
+.ng-calendar {
+    /*width: 945px;*/
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+
+.ng-calendar > .ng-calendar-actions {
+    /*width: 945px;*/
+    display: inline-block;
+    height: 34px;
+}
+
+.ng-calendar > .ng-calendar-actions > .ng-calendar-actions-left {
+    display: inline-block;
+    float: left;
+}
+
+.ng-calendar > .ng-calendar-actions > .ng-calendar-actions-right {
+    display: inline-block;
+    float: right;
+}
+
+.ng-calendar > .ng-calendar-header {
+    background: #3b91ad;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .ng-calendar-header > .ng-calendar-header-left {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 30px;
+}
+
+.ng-calendar > .ng-calendar-header > .ng-calendar-header-right {
+    display: inline-block;
+    float: right;
+    width: 50px;
+    height: 30px;
+}
+
+.ng-calendar > .ng-calendar-header > .ng-calendar-header-left i, .ng-calendar > .ng-calendar-header > .ng-calendar-header-right i {
+    font-size: 18px;
+    color: #fefefe;
+    float: left;
+    display: block;
+    line-height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.ng-calendar > .ng-calendar-header > .ng-calendar-header-left i.fa-angle-left, .ng-calendar > .ng-calendar-header > .ng-calendar-header-right i.fa-angle-right {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 27px;
+}
+
+.ng-calendar > .ng-calendar-header > .ng-calendar-header-left i.fa-backward, .ng-calendar > .ng-calendar-header > .ng-calendar-header-right i.fa-forward {
+    opacity: 0.4;
+}
+
+.ng-calendar > .ng-calendar-header > span.text {
+    float: left;
+    /*width: 840px;*/
+    width: 80%;
+    display: block;
+    text-align: center;
+    color: #fefefe;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Month Calendar */
+
+.ng-calendar > .month-calendar > .day-names {
+    /*width: 945px;*/
+    height: 24px;
+    display: inline-block;
+    border-bottom: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .month-calendar > .day-names > span {
+    width: 134.8px;
+    height: 24px;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    border-right: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .month-calendar {
+    display: inline-block;
+    /*width: 945px;*/
+}
+
+.ng-calendar > .month-calendar > .month-days {
+    /*width: 945px;*/
+    display: inline-block;
+    margin: 0 0 0 1px;
+}
+
+.ng-calendar > .month-calendar > .month-days > .day {
+    width: 135.8px;
+    height: 100px;
+    display: inline-block;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #d4d4d4;
+    margin: -5px 0 0 -1px;
+    overflow: hidden;
+}
+
+.ng-calendar > .month-calendar > .month-days > .day.today {
+    background: #fcf8e3;
+}
+
+.ng-calendar > .month-calendar > .month-days > .day > span.date {
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 3px 0 0 3px;
+}
+
+.ng-calendar > .month-calendar > .month-days > .day > span.date.disabled {
+    display: none;
+}
+
+.ng-calendar > .month-calendar > .month-days > .day > span.event {
+    display: block;
+    float: left;
+    width: 134.8px;
+    height: 20px;
+    font-size: 12px;
+    background: #3b91ad;
+    border-radius: 5px;
+    color: #fff;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+/* Week Calendar */
+.ng-calendar > .week-calendar {
+    display: inline-block;
+    /*width: 945px;*/
+}
+
+.ng-calendar > .week-calendar > .week-calendar-header {
+    display: inline-block;
+    /*width: 945px;*/
+}
+
+.ng-calendar > .week-calendar > .week-calendar-header > span {
+    display: block;
+    float: left;
+    /*width: 125px;*/
+    width: 12.5%;
+    /*height: 24px;*/
+    height: 50px;
+    text-align: center;
+    border-right: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .week-calendar > .week-calendar-header > span:first-child {
+    border-left: 1px solid #d4d4d4;
+    /*width: 70px;*/
+}
+
+
+.ng-calendar > .week-calendar > .hours {
+    display: inline-block;
+    float: left;
+    /*width: 70px;*/
+    width: 12.5%;
+    border-left: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    margin: -5px 0 0 0;
+}
+
+.ng-calendar > .week-calendar > .hours > span {
+    display: block;
+    /*width: 70px;*/
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .week-calendar > .day-hours {
+    display: inline-block;
+    float: left;
+    /*width: 125px;*/
+    width: 12.5%;
+    border-left: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    margin: -5px 1px 0 -1px;
+}
+
+.ng-calendar > .week-calendar > .day-hours:last-child {
+    border-right: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .week-calendar > .day-hours > span {
+    display: block;
+    /*width: 125px;*/
+    /*width: 14%;*/
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .week-calendar > .day-hours > span.today {
+    background: #fcf8e3;
+}
+
+.ng-calendar > .week-calendar > .day-hours > span > span > span > span {
+    display: block;
+    /*width: 125px;*/
+    width: 14%;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    background: #3b91ad;
+    color: #fff;
+    position: relative;
+}
+
+.ng-calendar > .day-calendar {
+    display: inline-block;
+    /*width: 945px;*/
+}
+
+.ng-calendar > .day-calendar > .day-calendar-header {
+    display: inline-block;
+    /*width: 945px;*/
+    height: 50px;
+    background: #fff;
+}
+
+.ng-calendar > .day-calendar > .hours {
+    display: block;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #d4d4d4;
+    float: left;
+}
+
+.ng-calendar > .day-calendar > .hours > span {
+    display: block;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .day-calendar > .day-hours {
+    display: inline-block;
+    float: left;
+    /*width: 875px;*/
+    border-left: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .day-calendar > .day-hours > span {
+    display: block;
+    /*width: 875px;*/
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.ng-calendar > .day-calendar > .day-hours > span.today {
+    background: #fcf8e3;
+}

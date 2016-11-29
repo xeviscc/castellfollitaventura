@@ -1,0 +1,27 @@
+<div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+            <br/>
+            <h1 translate="bicicletese.titol">Bicicletes elèctriques</h1>
+            <br/>
+            <p translate="bicicletese.text1">Vine a gaudir dels nostres paissatges i camins amb molt poc esforç.</p>
+            <p translate="bicicletese.maxim">
+                * Màxim per a grups de 5 persones.
+            </p>
+            <p translate="bicicletese.antelacio">
+                * Les reserves s'han de fer amb una setmana d'antelació.
+            </p>
+            <p translate="bicicletese.text3">Mira les nostres fotografies aquí:</p>
+            <div class="row">
+                <div class="col-xs-6 totes-fotos" ng-repeat="foto in fotos">
+                    <a colorbox="{{foto.gran}}" class="btte-group" rel="group1" href="#" title="{{foto.title}}">
+                        <img class="foto-petita" class="alignnone size-medium wp-image-56"
+                             ng-src="{{foto.petita}}"
+                             alt="{{foto.alt}}" />
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

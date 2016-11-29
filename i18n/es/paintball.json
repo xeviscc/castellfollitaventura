@@ -1,0 +1,22 @@
+{
+  "paintball": {
+    "titol": "Paintball",
+    "text1": "Ven a ver nuestro campo \"indoor\" y disfruta con tu pandilla de un rato trepidante.",
+    "text2": "Tenemos muchas modalidades de juego, ven y descúbrelos.",
+    "fotos": "Mira nuestras fotos aquí:",
+    "maxim": "* Los grupos tienen que ser de mínimo 6 personas y máximo de 16.",
+    "preus": {
+      "0": "Precios",
+      "1": "Alquiler marcadora + 100 bolas:",
+      "2": "Alquiler marcadora + 200 bolas:",
+      "3": "Recarga 100 bolas:",
+      "4": "Recarga 200 bolas:",
+      "5": "Recarga 500 bolas:",
+      "6": "Caja 2000 bolas:",
+      "7": "<b>Pack de lujo: marcadora + 600 bolas + 2 granadas: 60&euro;</b>"
+    },
+    "agilitzar":"Para poder agilizar los trámites, podéis descargaros y traer cumplimentados los siguientes documentos:",
+    "responsabilitat":"Descarga de responsabilidad, en todos los casos.",
+    "autoritzacio":"Autorización paterna, en caso de ser menor de edad."
+  }
+}

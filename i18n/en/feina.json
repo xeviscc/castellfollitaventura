@@ -1,0 +1,23 @@
+{
+  "feina": {
+    "titol": "Feina",
+    "gracies": "<strong>Moltes gràcies!</strong> Ben aviat ens possarem en contacte amb tu.",
+    "text1": "Estem interessats en persones dinàmiques per a portar grups a fer senderisme i explicar-los una mica sobre l'entorn. S'hauria d'explicar una mica sobre la flora i la fauna, així com una mica d'història quan es passi per les fortificacions. Els textos es proporcionaran.",
+    "text2": "Aquestes persones haurien de tenir algun títol de monitor, monitor de lleure o monitor d'esport.",
+    "idiomes" : "Es valorarà molt positivament que la persona parli algun idioma estranger.",
+    "form": {
+      "nom": "Nom *",
+      "nom.placeholder": "Nom",
+      "email": "E-mail *",
+      "email.placeholder": "E-mail",
+      "telefon": "Telèfon",
+      "telefon.placeholder": "Telèfon",
+      "assumpte": "Assumpte *",
+      "assumpte.placeholder": "Assumpte",
+      "missatge": "Missatge *",
+      "missatge.placeholder": "Missatge",
+      "condicions": "Acceptes les <a href=\"condicions\">Condicions Generals</a>",
+      "boto": "Enviar"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="aventuraApp" > <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" ng-app="aventuraApp" > <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" ng-app="aventuraApp" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="aventuraApp" > <!--<![endif]-->
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Castellfollit Aventura us ofereix activitats d'oci per a gaudir de l'entorn, per fer-vos pujar l'adrenalina i per a tots els públics.">
+    <meta name="author" content="Castellfollit Aventura SL">
+
+    <title>Castellfollit Aventura</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/colorbox-master/example1/colorbox.css" />
+    <link rel="stylesheet" href="/assets/css/angular-cookie-law.min.css">
+
+    <!--<link rel="canonical" href="http://castellfollitaventura.cat">-->
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.castellfollitaventura.cat{{currentPath}}">
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script type="text/javascript">
+        <!--
+        if (screen.width <= 640) {
+            window.location = "http://m.castellfollitaventura.cat"+window.location.pathname;
+        }
+        //-->
+    </script>
+
+    <base href="/" />
+</head>
+<body id="page-top" class="index container">
+<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up fa-3x"></i></a>
+
+
+        <!--[if lt IE 10]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!--id="wrapper"-->
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10">
+                <div class="row max-width-1200">
+                    <!-- Header -->
+                    <div class="col-xs-12">
+                        <header ui-view="header" ></header>
+                    </div>
+                </div>
+
+                <div class="row max-width-1200">
+                    <div ui-view="menu"></div>
+                </div>
+
+                <div id="content" class="row max-width-1200">
+                    <div class="col-xs-2 content-sidebar-left">
+                        <nav ui-view="sidebar" ng-cloak="" role="navigation"></nav>
+                    </div>
+                    <div class="col-xs-7 content-middle">
+                        <div ui-view="content" ></div><!--class="well"-->
+                        <footer ui-view="footer"></footer>
+                    </div>
+
+                    <div class="col-xs-3 content-sidebar-right">
+                        <nav ui-view="sidebar_r" ng-cloak="" role="navigation"></nav>
+                    </div>
+                </div>
+                <div class="row max-width-1200">
+                    <div class="col-xs-12">
+
+                    </div>
+                    <!-- TODO: Do something to fix the footer only in particular cases class="fixed-bottom" -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit" async defer ></script>
+
+<!--<script src="build/castellfollit_aventura_deps.min.js"></script>-->
+<script src="bower_components/modernizr/modernizr.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/json3/lib/json3.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-translate/angular-translate.js"></script>
+<script src="bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+<script src="bower_components/angular-translate-loader-partial/angular-translate-loader-partial.js"></script>
+<script src="bower_components/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
+<script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+<script src="bower_components/angular-recaptcha/release/angular-recaptcha.js"></script>
+<script src="bower_components/classie/classie.js"></script>
+<script src="bower_components/angular-cookie-law/dist/angular-cookie-law.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-animate.min.js"></script>
+
+<script type="text/javascript" src="assets/colorbox-master/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="assets/colorbox-master/i18n/jquery.colorbox-ca.js"></script>
+
+<script src="scripts/app/app.js"></script>
+<script src="scripts/app/app.constants.js"></script>
+
+<!--<script src="build/castellfollit_aventura.min.js"></script>-->
+<script src="scripts/services/mail.service.js"></script>
+<script src="scripts/services/language.service.js"></script>
+<script src="scripts/services/language.controller.js"></script>
+
+<script src="scripts/directives/ngrepeatfinished.directive.js"></script>
+<script src="scripts/directives/colorbox.directive.js"></script>
+<script src="scripts/directives/slider.directive.js"></script>
+
+<script src="scripts/app/menu/menu.controller.js"></script>
+<script src="scripts/app/footer/footer.controller.js"></script>
+<script src="scripts/app/header/header.controller.js"></script>
+<script src="scripts/app/landing/landing.js"></script>
+<script src="scripts/app/landing/landing.controller.js"></script>
+<script src="scripts/app/sidebar/sidebar.controller.js"></script>
+<script src="scripts/app/sidebar_r/sidebar_r.controller.js"></script>
+
+<script src="scripts/app/senderisme/senderisme.js"></script>
+<script src="scripts/app/senderisme/senderisme.controller.js"></script>
+<script src="scripts/app/senderisme/fortificacions/fortificacions.js"></script>
+<script src="scripts/app/senderisme/fortificacions/fortificacions.controller.js"></script>
+<script src="scripts/app/senderisme/cabirol/cabirol.js"></script>
+<script src="scripts/app/senderisme/cabirol/cabirol.controller.js"></script>
+
+<script src="scripts/app/bicicletese/bicicletese.js"></script>
+<script src="scripts/app/bicicletese/bicicletese.controller.js"></script>
+<script src="scripts/app/segway/segway.js"></script>
+<script src="scripts/app/segway/segway.controller.js"></script>
+<script src="scripts/app/com_arribar/com_arribar.js"></script>
+<script src="scripts/app/com_arribar/com_arribar.controller.js"></script>
+<script src="scripts/app/contacte/contacte.js"></script>
+<script src="scripts/app/contacte/contacte.controller.js"></script>
+<script src="scripts/app/gimcanabtt/gimcanabtt.js"></script>
+<script src="scripts/app/gimcanabtt/gimcanabtt.controller.js"></script>
+<script src="scripts/app/btt/btt.js"></script>
+<script src="scripts/app/btt/btt.controller.js"></script>
+<script src="scripts/app/nosaltres/nosaltres.js"></script>
+<script src="scripts/app/nosaltres/nosaltres.controller.js"></script>
+<script src="scripts/app/hostalatge/hostalatge.js"></script>
+<script src="scripts/app/hostalatge/hostalatge.controller.js"></script>
+<script src="scripts/app/packallotjament/packallotjament.js"></script>
+<script src="scripts/app/packallotjament/packallotjament.controller.js"></script>
+<script src="scripts/app/packdinar/packdinar.js"></script>
+<script src="scripts/app/packdinar/packdinar.controller.js"></script>
+<script src="scripts/app/entorn/entorn.js"></script>
+<script src="scripts/app/entorn/entorn.controller.js"></script>
+<script src="scripts/app/packempresa/packempresa.js"></script>
+<script src="scripts/app/packempresa/packempresa.controller.js"></script>
+<script src="scripts/app/padel/padel.js"></script>
+<script src="scripts/app/padel/padel.controller.js"></script>
+<script src="scripts/app/feina/feina.js"></script>
+<script src="scripts/app/feina/feina.controller.js"></script>
+<script src="scripts/app/avis/avis.js"></script>
+<script src="scripts/app/avis/avis.controller.js"></script>
+<script src="scripts/app/cancelacions/cancelacions.js"></script>
+<script src="scripts/app/cancelacions/cancelacions.controller.js"></script>
+<script src="scripts/app/garantia/garantia.js"></script>
+<script src="scripts/app/garantia/garantia.controller.js"></script>
+<script src="scripts/app/condicions/condicions.js"></script>
+<script src="scripts/app/condicions/condicions.controller.js"></script>
+<script src="scripts/app/calendar/calendar.js"></script>
+<script src="scripts/app/calendar/calendar.controller.js"></script>
+<script src="scripts/app/buggies/buggies.js"></script>
+<script src="scripts/app/buggies/buggies.controller.js"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+</script>
+<cookie-law-banner message="{{'global.cookie.missatge' | translate}}"
+                   accept-text="{{'global.cookie.botook' | translate}}"
+                   expire-days="30"
+                   policy-button="true"
+                   policy-text="{{'global.cookie.avis' | translate}}"
+                   policy-url="/avis">
+</cookie-law-banner>
+</body>
+</html>

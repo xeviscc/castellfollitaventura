@@ -1,0 +1,16 @@
+{
+  "packdinar": {
+    "titol": "Pack almuerzo/desayuno",
+    "text1": "Si después de disfrutar con nuestras actividades quereis disfrutar de un almuerzo casero, CAn Pep es vuestro sitio. Si no hubiera sitio, se buscará otro restaurante.",
+    "dinar" : {
+      "0": "Almuerzo",
+      "1": "Menú Castellfollit Aventura 11 euros de lunes a viernes.",
+      "2": "Menú Castellfollit Aventura 18 euros sábados, domingos y festivos."
+    },
+    "esmorzar" : {
+      "0": "Desayuno",
+      "1": "Menú Castellfollit Aventura 6 euros de lunes a viernes.",
+      "2": "Menú Castellfollit Aventura 8 euros sábados, domingos y festivos."
+    }
+  }
+}

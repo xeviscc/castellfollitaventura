@@ -1,0 +1,18 @@
+{
+  "segway": {
+    "titol": "Segway",
+    "text1": "Pasarlo bien de una manera diferente está en tus manos. Disfruta de unas horas de ruta por la naturaleza con estos fantásticos aparatos.  En todas las rutas habrá un guía.",
+    "text2": "Las rutas duran entre dos y tres horas aproximadamente. Para rutas más largas, mirar tabla de precios.",
+    "text3": "Se recomienda llevar guantes.",
+    "maxim": "* Máximo para grupos de 35 personas.",
+    "antelacio": "* Los grupos tienen que ser de mínimo 6 personas y máximo de 35.",
+    "text5": "Mira nuestras fotos:",
+    "preus": {
+      "0": "Precios",
+      "1": "2 horas: 55&euro;",
+      "2": "3 horas: 65&euro;",
+      "3": "Más de 3 horas: 80&euro;",
+      "4": "Todo el día: 120&euro;"
+    }
+  }
+}

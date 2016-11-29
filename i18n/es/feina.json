@@ -1,0 +1,23 @@
+{
+  "feina": {
+    "titol": "Trabajo",
+    "gracies": "<strong>Muchas gracias!</strong> Muy pronto nos pondremos en contacto contigo.",
+    "text1": "Estamos interesados en personas dinámicas para llevar grupos a fer senderismo y explicar un poco sobre el entorno. Se tendria que explicar un poco sobre la flora y la fauna, así como un poco de la historia cuando se pase cerca de una fortificación. Los textos se proporcionarán.",
+    "text2": "Estas persona deberían tener algun título de monitor. Monitor de ocio o monitor de deporte.",
+    "idiomes" : "Se valorará muy positivamente que la persona hable algún idioma extranjero.",
+    "form": {
+      "nom": "Nombre *",
+      "nom.placeholder": "Nombre",
+      "email": "E-mail *",
+      "email.placeholder": "E-mail",
+      "telefon": "Teléfono",
+      "telefon.placeholder": "Teléfono",
+      "assumpte": "Asunto *",
+      "assumpte.placeholder": "Asunto",
+      "missatge": "Mensaje *",
+      "missatge.placeholder": "Mensaje",
+      "condicions": "Aceptas las <a href=\"condicions\">Condiciones Generales</a>",
+      "boto": "Enviar"
+    }
+  }
+}

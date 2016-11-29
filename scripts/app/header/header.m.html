@@ -1,0 +1,80 @@
+<div class="row header-main">
+    <script type="text/javascript">
+        $(function() {
+            $('.toggle-nav').click(function() {
+                $('body').toggleClass('show-nav');
+                return false;
+            });
+        });
+        $(function() {
+            $('#body-nav').click(function() {
+                $('body').toggleClass('show-nav');
+                return false;
+            });
+        });
+        window.onload = function () {
+            if (typeof history.pushState === "function") {
+                history.pushState("jibberish", null, null);
+                window.onpopstate = function () {
+                    history.pushState('newjibberish', null, null);
+                    // Handle the back (or forward) buttons here
+                    // Will NOT handle refresh, use onbeforeunload for this.
+                    if($('body').hasClass('show-nav')){
+                        $('body').toggleClass('show-nav');
+                    }
+                };
+            }
+            else {
+                var ignoreHashChange = true;
+                window.onhashchange = function () {
+                    if (!ignoreHashChange) {
+                        ignoreHashChange = true;
+                        window.location.hash = Math.random();
+                        // Detect and redirect change here
+                        // Works in older FF and IE9
+                        // * it does mess with your hash symbol (anchor?) pound sign
+                        // delimiter on the end of the URL
+                    }
+                    else {
+                        ignoreHashChange = false;
+                    }
+                };
+            }
+        };
+    </script>
+    <div class="col-xs-3 toggle-nav">
+        &nbsp;&nbsp;&nbsp;<i class="fa fa-bars"></i> {{'global.header.menu' | translate}}
+    </div>
+    <div class="col-xs-4">
+        <a ui-sref="landing">
+            <img src="http://static.castellfollitaventura.cat/images/LogoCastellfollitAventuraC.png"
+                 alt="Castellfollit Aventura" width="300"/>
+        </a>
+    </div>
+    <div class="col-xs-offset-1 col-xs-4 header-right">
+        <div class="row">
+            <div class="">
+                <ul class="list-inline">
+                    <li class="social-buttons">
+                        <a href="http://twitter.com/castellaventura"><i class="social-icon fa fa-twitter fa-2x"></i></a>
+                    </li>
+                    <li class="social-buttons">
+                        <a href="https://www.tripadvisor.es/Attraction_Review-g2587088-d10403186-Reviews-Castellfollit_Aventura-Castellfollit_de_Riubregos_Catalonia.html"><i class="social-icon fa fa-tripadvisor fa-2x"></i></a>
+                    </li>
+                    <li class="social-buttons">
+                        <a href="https://www.facebook.com/castellfollitaventura"><i class="social-icon fa fa-facebook fa-2x"></i></a>
+                    </li>
+                    <li class="social-buttons">
+                        <a href="https://plus.google.com/+CastellfollitAventuraCatSL"><i class="social-icon fa fa-google-plus fa-2x"></i></a>
+                    </li>
+                    <li class="social-buttons">
+                        <a href="https://www.youtube.com/channel/UCozDzfCzJIzF61YmijcQq3g"><i class="social-icon fa fa-youtube fa-2x"></i></a>
+                    </li>
+                    <li class="social-buttons">
+                        <a href="https://www.instagram.com/castellfollitaventura/"><i class="social-icon fa fa-instagram fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

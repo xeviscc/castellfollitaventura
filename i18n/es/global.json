@@ -1,0 +1,61 @@
+{
+  "global": {
+    "footer" : {
+      "copyright": "Copyright &copy; 2016 Castellfollit Aventura SL (CIF B66703380)",
+      "avis": "Aviso Legal",
+      "cancelacions": "Cancelaciones",
+      "garantia": "Garantías",
+      "condicions": "Condiciones Generales"
+    },
+    "menu": {
+      "entorn": "Entorno",
+      "nosaltres": "Nosotros",
+      "com_arribar": "Localización",
+      "contacte": "Contacto",
+      "reserves": "Reservas",
+      "botiga": "Nuestra Tienda"
+    },
+    "sidebar": {
+      "senderisme": "Senderismo",
+      "bicicletese": "BTT Eléctricas",
+      "segway": "Segway",
+      "btt": "BTT",
+      "gimcanabtt": "Gincana BTT",
+      "padel": "Pádel/Tenis",
+      "escaperoom": "Room Escape",
+      "paintball": "Paintball",
+      "laser": "Láser Combat",
+      "buggies": "Buggies",
+      "packbuggies": "Pack Buggies",
+      "packdespedida": "Pack despedida",
+      "packempresa": "Pack empresa",
+      "packdinar": "Almuerzo/desayuno",
+      "feina.1": "Quieres trabajar",
+      "feina.2": "con nosotros?",
+      "feina.mobil": "Trabaja con nosotros"
+    },
+    "sidebar_r": {
+      "reserva": "Reservar ahora!",
+      "gracies": "Muchas gracias!",
+      "missatge": "Nos pondremos en contacto contigo lo más pronto posible!",
+      "form" :{
+        "head": "<b>A Castellfollit Aventura:</b>",
+        "nom":"Nombre *",
+        "email":"E-mail *",
+        "telefon":"Teléfono *",
+        "empresa":"Nombre empresa",
+        "missatge":"Mensaje *",
+        "boto": "Enviar"
+      },
+      "collaboren" : "Colaboran:"
+    },
+    "header": {
+      "menu": "Menú"
+    },
+    "cookie":{
+      "missatge": "Esta página web utiliza galletas para guardar el idioma y otra información para el correcto funcionamiento de la misma.",
+      "botook": "Lo entiendo",
+      "avis": "Aviso Legal"
+    }
+  }
+}
