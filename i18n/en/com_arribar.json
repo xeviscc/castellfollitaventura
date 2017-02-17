@@ -1,9 +1,9 @@
 {
   "com_arribar": {
-    "titol": "Com arribar?",
+    "titol": "How to arrive?",
     "input": {
-      "placeholder" : "Des d'on vens?",
-      "boto" : "Veure itinerari!"
+      "placeholder" : "From where you come?",
+      "boto" : "See itinerary!"
     }
   }
 }

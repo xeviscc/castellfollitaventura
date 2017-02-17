@@ -1,20 +1,20 @@
 {
   "contacte": {
-    "titol": "Contacte",
-    "gracies": "<strong>Moltes gràcies!</strong> Ben aviat ens possarem en contacte amb tu.",
+    "titol": "Contact",
+    "gracies": "<strong>Thank you!</strong> We will contact you very soon.",
     "form": {
-      "nom": "Nom *",
-      "nom.placeholder": "Nom",
+      "nom": "Name *",
+      "nom.placeholder": "Name",
       "email": "E-mail *",
       "email.placeholder": "E-mail",
-      "telefon": "Telèfon *",
-      "telefon.placeholder": "Telèfon",
-      "assumpte": "Assumpte *",
-      "assumpte.placeholder": "Assumpte",
-      "missatge": "Missatge *",
-      "missatge.placeholder": "Missatge",
-      "condicions": "Acceptes les <a href=\"condicions\">Condicions Generals</a>",
-      "boto": "Enviar"
+      "telefon": "Phone *",
+      "telefon.placeholder": "Phone",
+      "assumpte": "Subject *",
+      "assumpte.placeholder": "Subject",
+      "missatge": "Message *",
+      "missatge.placeholder": "Message",
+      "condicions": "By submitting this form you agree to the <a href=\"condicions\">Terms and Conditions</a>",
+      "boto": "Send"
     }
   }
 }

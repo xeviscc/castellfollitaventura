@@ -1,55 +1,61 @@
 {
   "global": {
     "footer" : {
-      "copyright": "Copyright &copy; Castellfollit Aventura 2016",
-      "avis": "Avís Legal",
-      "cancelacions": "Cancel·lacions",
-      "garantia": "Garanties",
-      "condicions": "Condicions Generals"
+      "copyright": "Copyright &copy; 2016 Castellfollit Aventura SL (CIF B66703380)",
+      "avis": "Legal warning",
+      "cancelacions": "Cancellations",
+      "garantia": "Guarantees",
+      "condicions": "General Conditions"
     },
     "menu": {
-      "entorn": "Entorn",
-      "nosaltres": "Nosaltres",
-      "com_arribar": "Localització",
-      "contacte": "Contacte",
-      "botiga": "La Nostra Botiga"
+      "entorn": "Village",
+      "nosaltres": "About us",
+      "com_arribar": "Location",
+      "contacte": "Contact",
+      "reserves": "Reservations",
+      "botiga": "Our Shop"
     },
     "sidebar": {
-      "senderisme": "Senderisme",
-      "bicicletese": "BTT Elèctriques",
+      "senderisme": "Hiking",
+      "bicicletese": "Electric MTB",
       "segway": "Segway",
-      "btt": "BTT",
-      "gimcanabtt": "Gimcana BTT",
-      "padel": "Pàdel/Tennis",
+      "btt": "MTB",
+      "gimcanabtt": "Gymkhana MTB",
+      "padel": "Paddle/Tennis",
+      "escaperoom": "Room Escape",
+      "paintball": "Paintball",
+      "laser": "Làser Combat",
       "buggies": "Buggies",
-      "packempresa": "Pack empresa",
-      "packdinar": "Dinar/esmorzar",
-      "feina.1": "Vols treballar",
-      "feina.2": "amb nosaltres?",
-      "feina.mobil": "Treballa amb nosaltres"
+      "packbuggies": "Buggy Pack",
+      "packempresa": "Enterprise Pack",
+      "packdespedida": "Bachelor Pack",
+      "packdinar": "Lunch/breakfast",
+      "feina.1": "Do you want to",
+      "feina.2": "work with us?",
+      "feina.mobil": "Work with us"
     },
     "sidebar_r": {
-      "reserva": "Reserva ara!",
-      "gracies": "Moltes gràcies!",
-      "missatge": "Ens posarem en contacte amb tu el mes aviat possible!",
+      "reserva": "Book now!",
+      "gracies": "Thank you!",
+      "missatge": "We will contact you as soon as possible!",
       "form" :{
-        "head": "<b>A Castellfollit Aventura:</b>",
-        "nom":"Nom *",
+        "head": "<b>To Castellfollit Aventura:</b>",
+        "nom":"Name *",
         "email":"E-mail *",
-        "telefon":"Telèfon *",
-        "empresa":"Nom empresa",
-        "missatge":"Missatge *",
-        "boto": "Enviar"
+        "telefon":"Phone *",
+        "empresa":"Company name",
+        "missatge":"Message *",
+        "boto": "Send"
       },
-      "collaboren" : "Col·laboren:"
+      "collaboren" : "Collaborate:"
     },
     "header": {
-      "menu": "Menú"
+      "menu": "Menu"
     },
     "cookie":{
-      "missatge": "This website uses cookies to store the language and other information for to have a proper behaviour.",
+      "missatge": "This website uses cookies to save the language and other information for the proper functioning of the same.",
       "botook": "I understand",
-      "avis": "Legal Notice"
+      "avis": "Legal warning"
     }
   }
 }

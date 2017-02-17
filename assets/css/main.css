@@ -208,7 +208,7 @@ body {
 }
 .content-sidebar-right {
     background-size: cover;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     padding-bottom: 40px;
 }
 .sidebar-right{
@@ -947,3 +947,4 @@ body {
 .red {color:red;}
 .green {color:green;}
 input {color:black;}
+p {text-align:justify;}

@@ -1,0 +1,22 @@
+{
+  "paintball": {
+    "titol": "Paintball",
+    "text1": "Come see our indoor field and enjoy with your gang our exciting games.",
+    "text2": "We have many modes of play, come and discover them.",
+    "fotos": "Look at our pictures here:",
+    "maxim": "* The groups must be at least 6 people and maximum of 16.",
+    "preus": {
+      "0": "Prices",
+      "1": "Marker rental + 100 balls:",
+      "2": "Marker rental + 200 balls:",
+      "3": "Recharge 100 balls:",
+      "4": "Recharge 200 balls:",
+      "5": "Recharge 500 balls:",
+      "6": "Box of 2000 balls:",
+      "7": "<b>Luxury pack: Marker + 600 balls + 2 grenades:</b>"
+    },
+    "agilitzar":"In order to speed up the process, you can download and bring filled in the following documents:",
+    "responsabilitat":"Disclaimer in all cases.",
+    "autoritzacio":"Parental consent in the case of a minor."
+  }
+}

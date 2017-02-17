@@ -13,7 +13,7 @@
       "assumpte.placeholder": "Asunto",
       "missatge": "Mensaje *",
       "missatge.placeholder": "Mensaje",
-      "condicions": "Aceptas las <a href=\"condicions\">Condiciones Generales</a>",
+      "condicions": "Al enviar el mensaje aceptas las <a href=\"condicions\">Condiciones Generales</a>",
       "boto": "Enviar"
     }
   }

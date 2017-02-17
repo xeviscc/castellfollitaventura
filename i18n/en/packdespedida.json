@@ -1,0 +1,20 @@
+{
+  "packdespedida": {
+    "titol": "Bachelor Pack",
+    "text1": "",
+    "text2": "Enjoy a different day with exciting activities and good food.",
+    "explicacio": "In the case of groups over 16, this will be divided because the activity is maximum 16 people. So while some people going for a Segway tour or Hiking, the others can play Paintball or vice versa. In other cases, a small group of 6 people can change Paintball for Room Escape.",
+    "avis": {
+      "antelacio": "* Reservations must be made 15 days in advance and must make a deposit of 50% of the total.",
+      "grupgran": "* In case of larger groups of 24, will be charged 5 euros/person for logistics and personnel."
+    },
+    "fotos": "Look our pictures here:",
+    "pack1": {
+      "0": "Pack (105&euro;)",
+      "1": "Segway",
+      "2": "Paintball",
+      "3": "Room Escape",
+      "4": "Lunch"
+    }
+  }
+}

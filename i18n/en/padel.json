@@ -1,20 +1,21 @@
 {
   "padel": {
-    "titol": "Tennis/Pàdel",
-    "text1": "Gaudeix de l'esport del moment.",
+    "titol": "Tennis/Paddle tennis",
+    "text1": "Enjoy the sport of the moment.",
     "padel": {
-      "0": "Pàdel (1h)",
-      "1": "Lloguer de pista + pales pàdel + pilotes: 35&euro;",
-      "2": "Lloguer de pista: 4&euro;/persona",
-      "3": "Lloguer de pales: 6&euro;/persona",
-      "4": "Lloguer de pilotes: 2&euro;"
+      "0": "Paddle tennis (1h)",
+      "1": "Pack 4 people: Court rental + paddle tennis paddle + balls: 35&euro;",
+      "2": "Court rental: 4&euro;/person",
+      "3": "Paddle rental: 6&euro;/person",
+      "4": "Balls rental: 0.5&euro;/person"
     },
     "tennis": {
       "0": "Tennis (1h)",
-      "1": "Lloguer de pista + raqueta tennis + pilotes: 20&euro;",
-      "2": "Lloguer de pista: 2&euro;/persona",
-      "3": "Lloguer de raqueta: 3&euro;/persona",
-      "4": "Lloguer de pilotes: 2&euro;"
+      "1": "Pack 2 people: Lloguer de pista + tennis racket + balls: 10&euro;",
+      "2": "Pack 4 people: Lloguer de pista + tennis racket + balls: 20&euro;",
+      "3": "Court rental: 2&euro;/person",
+      "4": "Racket rental: 3&euro;/person",
+      "5": "Balls rental: 0.5&euro;/person"
     }
   }
 }
