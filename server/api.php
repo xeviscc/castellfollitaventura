@@ -105,7 +105,7 @@
 
 
                 $decodec = $miObj->decodeMerchantParameters($datos);
-                $kc = 'sq7HjrUOBfKmC576ILgskD5srU870gJ7'; //Clave recuperada de CANALES
+                $kc = 'xxxx'; //Clave recuperada de CANALES
                 $firma = $miObj->createMerchantSignatureNotif($kc,$datos);
 
                 if ($firma === $signatureRecibida){
@@ -130,7 +130,7 @@
             $miObj = new RedsysAPI;
 
             // Valores de entrada
-            $merchantcode="91358382";
+            $merchantcode="xxxx";
             $terminal="001";
             $currency="978";//EURO
             $trans="0";
@@ -153,7 +153,7 @@
 
             //Datos de configuración
             $version="HMAC_SHA256_V1";
-            $kc = 'sq7HjrUOBfKmC576ILgskD5srU870gJ7';//Clave recuperada de CANALES
+            $kc = 'xxxx';//Clave recuperada de CANALES
 
             // Se generan los parámetros de la petición
             $request = "";
