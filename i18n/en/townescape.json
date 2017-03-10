@@ -1,0 +1,23 @@
+{
+  "townescape": {
+    "titol": "Town Escape \"The Abduction of Almodis\"",
+    "titol.que":"What a Town Escape is?",
+    "que.text1":"A town escape is a live game in which a group of more than 8 people try to escape from a room or more or they try to find some precious object solving a serie of puzzles and riddles in a time of 90 minutes.",
+    "que.text2":"The objective will be defined in the initial explanation or during the game.",
+    "titol.beneficis":"Benefits",
+    "benefici.1":"Great for groups to improve communication in families, friends or colleagues. Popularly known as \"Team building\".",
+    "benefici.2":"Enhancing creativity and thinking. It helps to think about things differently. \"Think out of the box\".",
+    "benefici.3":"Transporting you to a different world, wake your wit and mental acuity.",
+    "titol.consells":"Advices",
+    "consell.1":"Communication between team members.",
+    "consell.2":"Control of objects and clues found and used.",
+    "consell.3":"Respect the environment, disassemble, but do not destroy.",
+    "text1": "Castellfollit Adventure presents a factual town escape. For solving puzzles you will discover the real history on the abdutction of Almodis, that for some extrange reason ended at Castellfollit de Riubregós. The purpose of this town escape reveal the true history that some want to hide.",
+    "preus": {
+      "0": "Prices",
+      "1": "From 8 to 12 people: 20&euro;/person",
+      "2": "From 13 to 16 people: 18&euro;/person",
+      "3": "More than 16 people: 15&euro;/person"
+    }
+  }
+}

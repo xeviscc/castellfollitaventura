@@ -27,7 +27,7 @@ angular.module('aventuraApp')
         $scope.$on('show_menu', function (event, data) {
             if(data.page=='paintball' || data.page=='senderisme' || data.page=='bicicletese'
                 || data.page=='gimcanabtt' || data.page=='padel' || data.page=='segway'
-                || data.page=='escaperoom' || data.page=='laser'
+                || data.page=='escaperoom' || data.page=='townescape'
                 || data.page=='packbuggies' || data.page=='packdespedida'
                 || data.page=='packempresa' || data.page=='packdinar'
                 || data.page=='feina' || data.page=='buggies') {
