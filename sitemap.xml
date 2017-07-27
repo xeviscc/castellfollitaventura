@@ -100,6 +100,22 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>http://castellfollitaventura.cat/escaperoomdomicili</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/escaperoomdomicili" />
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/orientacio</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/orientacio" />
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>http://castellfollitaventura.cat/feina</loc>
         <xhtml:link rel="alternate"
                     media="only screen and (max-width: 640px)"
@@ -115,6 +131,7 @@
         <changefreq>weekly</changefreq>
         <priority>0.1</priority>
     </url>
+    <!--
     <url>
         <loc>http://castellfollitaventura.cat/gimcanabtt</loc>
         <xhtml:link rel="alternate"
@@ -123,6 +140,7 @@
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+    -->
     <url>
         <loc>http://castellfollitaventura.cat/buggies</loc>
         <xhtml:link rel="alternate"
@@ -139,11 +157,21 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+    <!--
     <url>
         <loc>http://castellfollitaventura.cat/packdespedida</loc>
         <xhtml:link rel="alternate"
                     media="only screen and (max-width: 640px)"
                     href="http://m.castellfollitaventura.cat/packdespedida" />
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    -->
+    <url>
+        <loc>http://castellfollitaventura.cat/packamida</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/packamida" />
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -155,6 +183,7 @@
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
+    <!--
     <url>
         <loc>http://castellfollitaventura.cat/packempresa</loc>
         <xhtml:link rel="alternate"
@@ -163,6 +192,7 @@
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
+    -->
     <url>
         <loc>http://castellfollitaventura.cat/padel</loc>
         <xhtml:link rel="alternate"
@@ -176,6 +206,14 @@
         <xhtml:link rel="alternate"
                     media="only screen and (max-width: 640px)"
                     href="http://m.castellfollitaventura.cat/paintball" />
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://castellfollitaventura.cat/paintball7</loc>
+        <xhtml:link rel="alternate"
+                    media="only screen and (max-width: 640px)"
+                    href="http://m.castellfollitaventura.cat/paintball7" />
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>

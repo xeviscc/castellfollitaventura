@@ -1,0 +1,21 @@
+{
+  "escaperoom": {
+    "titol": "Room Escape Personalitzat",
+    "titol.que":"Què és un Room Escape?",
+    "que.text1":"Un room escape o escape room és un joc en viu en el que un grup de persones d'entre 2 i 6 components intentaran escapar d'una o més habitacions tot resolent una serie d'enigmes i puzzles en un temps de 60 minuts.",
+    "que.text2":"L'objectiu d'un room escape també pot ser el de trobar un objecte.",
+    "titol.beneficis":"Beneficis",
+    "benefici.1":"Genial per a millorar la comunicació de grups, tant famílies, amics o companys de feina. Conegut popularment com a \"Team building\".",
+    "benefici.2":"Millorar la creativitat i la forma de pensar. T'ajuda a pensar en les coses d'una forma diferent. \"Think out of the box\".",
+    "benefici.3":"Al transportar-te a un ambient desconegut, despertes el teu ingeni i agudesa mental.",
+    "titol.consells":"Consells",
+    "consell.1":"Comunicació entre els membres de l'equip.",
+    "consell.2":"Control dels objectes/pistes trobades i utilitzades.",
+    "consell.3":"Respectar l'entorn, desmuntar, però no destruir.",
+    "text1": "Castellfollit Aventura us dona la oportunitat de portar qualsevol Room Escape al vostre domicili, empresa, sala de conferències, bibliotecta, ... Tu tries el lloc, i també la història que hi haurà darrere! No t'ho perdis!",
+    "preus": {
+      "0": "Preus",
+      "1": "Els preus depenen de les necessitats de cada situació. Contacta'ns!"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "orientacio": {
+    "titol": "Orientation",
+    "text1": "Come to see if you are capable to find all the spots of our orientation circuit.",
+    "text2": "The spots are all along the zone around our ubication.",
+    "maxim": "* The groups must be at least 4 people and maximum of 10. For mor people contact us.",
+    "preus": {
+      "0": "Price: {{preu}}"
+    },
+    "agilitzar":"In order to speed up the process, you can download and bring filled in the following documents:",
+    "responsabilitat":"Disclaimer in all cases.",
+    "autoritzacio":"Parental consent in the case of a minor."
+  }
+}

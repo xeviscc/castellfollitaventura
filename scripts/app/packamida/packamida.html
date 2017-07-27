@@ -1,0 +1,55 @@
+<div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+            <br/>
+            <h1 translate="packdinar.titol">Pack dinar/esmorzar</h1>
+            <br/>
+            <p translate="packdinar.text1">
+                Si a part de gaudir amb les nostres activitats voleu gaudir d’un dinar casolà, Can Pep és el vostre lloc. En cas de no haver-hi lloc, es buscarà un altre restaurant.
+            </p>
+            <h4 translate="packdinar.dinar.0">Dinar</h4>
+            <ul>
+                <li translate="packdinar.dinar.1">
+                    Menú Castellfollit Aventura 11 euros de dilluns a divendres.
+                </li>
+                <li translate="packdinar.dinar.2">
+                    Menú Castellfollit Aventura 18 euros dissabtes, diumenges i festius.
+                </li>
+            </ul>
+            <br/>
+            <div class="row">
+                <div class="col-xs-6 totes-fotos" ng-repeat="foto in dinar">
+                    <a colorbox="{{foto.gran}}" class="packdinar-group" rel="group1" href="#" title="{{foto.title}}">
+                        <img class="foto-petita" class="alignnone size-medium wp-image-56"
+                             ng-src="{{foto.petita}}"
+                             alt="{{foto.alt}}" />
+                    </a>
+                </div>
+            </div>
+            <br/>
+            <h4 translate="packdinar.esmorzar.0">Esmorzar</h4>
+            <ul>
+                <li translate="packdinar.esmorzar.1">
+                    Menú Castellfollit Aventura 6 euros de dilluns a divendres
+                </li>
+                <li translate="packdinar.esmorzar.2">
+                    Menú Castellfollit Aventura 8 euros dissabtes, diumenges i festius
+                </li>
+
+            </ul>
+            <br/>
+            <div class="row">
+                <div class="col-xs-6 totes-fotos" ng-repeat="foto in esmorzar">
+                    <a colorbox="{{foto.gran}}" class="packdinar-group" rel="group1" href="#" title="{{foto.title}}">
+                        <img class="foto-petita" class="alignnone size-medium wp-image-56"
+                             ng-src="{{foto.petita}}"
+                             alt="{{foto.alt}}" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

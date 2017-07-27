@@ -11,7 +11,7 @@
     "material": "És imprescindible portar roba de muntanya per realitzar la ruta, així com un calçat adequat i còmode.",
     "alimentacio": "Cal portar beguda o aigua i el menjar que cadascú consideri oportú.",
     "nota": "<i>Nota: Si alguna persona pren algun tipus de medicació, pateix alguna patologia o ha tingut alguna lesió recentment, si us plau comenteu-ho en el moment de fer la reserva.</i>",
-    "preu": "18€/persona (IVA inclòs).",
+    "preu": "{{preu}}/persona (IVA inclòs).",
     "recorregut.2": "<span style=\"font-size: 12px;\"><em>* Nota: L’itinerari previst podrà variar lleugerament en funció de les condicions meteorològiques i de l’estat del terreny.</em></span>",
     "aclaracio": "Per a grups tancats que vulguin una sortida privada, si us plau consulteu-nos.<br/>El preu inclou la planificació i preparació de la ruta, la realització de la ruta i l’assegurança d’accidents per a activitats realitzades en el medi natural.",
     "descompte": "<i>* Fins a 10 anys, descompte de 4€ en el preu.</i>",

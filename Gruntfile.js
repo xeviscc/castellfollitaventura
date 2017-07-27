@@ -93,7 +93,7 @@ module.exports = function(grunt) {
                     {expand: true, src: ['api/**'], dest: 'target/web/'},
                     {expand: true, src: ['i18n/**'], dest: 'target/web/'},
                     {expand: true, src: ['server/**'], dest: 'target/web/'},
-                    {expand: true, cwd: 'tmp/htmlmin/', src: ['**/*html', '!**/*.m.html', '!**/prod*html'], dest: 'target/web/'},
+                    {expand: true, cwd: 'tmp/htmlmin/', src: ['**/*html', '!**/*.m.html', '!**/*prod*html'], dest: 'target/web/'},
                     {expand: true, src: ['scripts/**/app.js'], dest: 'target/web/'},
                     {expand: true, src: ['scripts/**/app.constants.js'], dest: 'target/web/'},
                     {src: 'favicon.ico', dest: 'target/web/'},

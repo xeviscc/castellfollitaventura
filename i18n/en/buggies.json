@@ -2,7 +2,7 @@
   "buggies": {
     "titol" : "Buggies",
     "descripcio" : "Come and enjoy a buggy tour. Stroll along paths around and live the thrill of driving a buggy, enjoying nature and cultural heritage that surrounds us.",
-    "preus.0" : "Price per buggy: 135&euro;",
+    "preus.0" : "Price per buggy (1h): {{preu}}",
     "nota" : "* In order to drive a buggy you must be over 25 years old and have more than two years of license."
   }
 }

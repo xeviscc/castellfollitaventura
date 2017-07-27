@@ -4,13 +4,13 @@
     "text1": "If you enjoyed our activities and want to enjoy also a homemade lunch or breakfast, \"Can Pep\" is your place. ",
     "dinar" : {
       "0": "Lunch",
-      "1": "Castellfollit Aventura menu for 11 euros from Monday to Friday.",
-      "2": "Castellfollit Aventura menu for 18 euros Saturday, Sunday and holidays."
+      "1": "Castellfollit Aventura menu for {{preu}} from Monday to Friday.",
+      "2": "Castellfollit Aventura menu for {{preu}} Saturday, Sunday and holidays."
     },
     "esmorzar" : {
       "0": "Breakfast",
-      "1": "Castellfollit Aventura menu for 6 euros from Monday to Friday.",
-      "2": "Castellfollit Aventura menu for 8 euros Saturday, Sunday and holidays."
+      "1": "Castellfollit Aventura menu for {{preu}} from Monday to Friday.",
+      "2": "Castellfollit Aventura menu for {{preu}} Saturday, Sunday and holidays."
     }
   }
 }

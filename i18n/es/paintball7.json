@@ -1,0 +1,17 @@
+{
+  "paintball7": {
+    "titol": "Paintball Familiar \"Las Trincheras\"",
+    "text1": "Ven a ver nuestro campo \"indoor\" y disfruta con tu pandilla de un rato trepidante.",
+    "text2": "Tenemos muchas modalidades de juego, ven y descúbrelos.",
+    "fotos": "Mira nuestras fotos aquí:",
+    "maxim": "* Los grupos tienen que ser de mínimo 6 personas y máximo de 16. Para más personas, consultar.",
+    "preus": {
+      "0": "Precios",
+      "1": "Alquiler marcadora + 50 bolas:",
+      "2": "Recarga 50 bolas:"
+    },
+    "agilitzar":"Para poder agilizar los trámites, podéis descargaros y traer cumplimentados los siguientes documentos:",
+    "responsabilitat":"Descarga de responsabilidad, en todos los casos.",
+    "autoritzacio":"Autorización paterna, en caso de ser menor de edad."
+  }
+}

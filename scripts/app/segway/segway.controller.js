@@ -1,9 +1,14 @@
 angular.module('aventuraApp')
-	.controller('SegwayController', function($scope,STATIC_URL,PagamentService,$timeout,$state) {
+	.controller('SegwayController', function($scope,STATIC_URL,PagamentService,$timeout,$state,PREU_SEGWAY_2,PREU_SEGWAY_3,PREU_SEGWAY_MES_3,PREU_SEGWAY_DIA) {
 		'use strict';
 
+        $scope.preu_2 = PREU_SEGWAY_2+"€";
+        $scope.preu_3 = PREU_SEGWAY_3+"€";
+        $scope.preu_mes_3 = PREU_SEGWAY_MES_3+"€";
+        $scope.preu_dia = PREU_SEGWAY_DIA+"€";
+
 		$timeout(function() {
-			$scope.$parent.$broadcast('preu_post_it', '55€');
+			$scope.$parent.$broadcast('preu_post_it', $scope.preu_2);
 			$scope.$parent.$broadcast('show_collaboradors', false);
 			$scope.$parent.$broadcast('show_menu', { 'page': $state.current.name, 'menu': ''});
 		}, 100);

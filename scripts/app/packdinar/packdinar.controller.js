@@ -1,9 +1,14 @@
 angular.module('aventuraApp')
-    .controller('PackdinarController', function ($scope,STATIC_URL,$timeout,$state) {
+    .controller('PackdinarController', function ($scope,STATIC_URL,$timeout,$state,PREU_DINAR_DIARI,PREU_DINAR_FESTIU,PREU_ESMORZAR_DIARI,PREU_ESMORZAR_FESTIU) {
         'use strict';
 
+        $scope.preu_dinar_diari = PREU_DINAR_DIARI+"€";
+        $scope.preu_dinar_festiu = PREU_DINAR_FESTIU+"€";
+        $scope.preu_esmorzar_diari = PREU_ESMORZAR_DIARI+"€";
+        $scope.preu_esmorzar_festiu = PREU_ESMORZAR_FESTIU+"€";
+
         $timeout(function() {
-            $scope.$parent.$broadcast('preu_post_it', '+8€');
+            $scope.$parent.$broadcast('preu_post_it', '+'+$scope.preu_esmorzar_festiu);
             $scope.$parent.$broadcast('show_collaboradors', false);
             $scope.$parent.$broadcast('show_menu', { 'page': $state.current.name, 'menu': 'pack'});
         }, 100);

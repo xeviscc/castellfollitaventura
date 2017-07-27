@@ -9,10 +9,10 @@
     "text5": "Mira les nostres fotografies aquí:",
     "preus": {
       "0": "Preus",
-      "1": "2 hores: 55&euro;",
-      "2": "3 hores: 65&euro;",
-      "3": "Més de 3 hores: 80&euro;",
-      "4": "Tot el dia: 120&euro;"
+      "1": "2 hores: {{preu}}",
+      "2": "3 hores: {{preu}}",
+      "3": "Més de 3 hores: {{preu}}",
+      "4": "Tot el dia: {{preu}}"
     }
   }
 }

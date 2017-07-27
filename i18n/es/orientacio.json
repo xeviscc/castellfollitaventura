@@ -1,0 +1,14 @@
+{
+  "orientacio": {
+    "titol": "Orientación",
+    "text1": "Ven a ver si eres capaz de encontrar todos los puntos de nuestro circuito de orientación.",
+    "text2": "Los puntos están repartidos por una zona alrededor de nuestra ubicación.",
+    "maxim": "* Los grupos tienen que ser de mínimo 4 y de máximo 10 personas. Para más personas, consultar.",
+    "preus": {
+      "0": "Precio: {{preu}}"
+    },
+    "agilitzar":"Para poder agilizar los trámites, podéis descargaros y traer cumplimentados los siguientes documentos:",
+    "responsabilitat":"Descarga de responsabilidad, en todos los casos.",
+    "autoritzacio":"Autorización paterna, en caso de ser menor de edad."
+  }
+}

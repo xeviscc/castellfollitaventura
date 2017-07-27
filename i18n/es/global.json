@@ -1,7 +1,7 @@
 {
   "global": {
     "footer" : {
-      "copyright": "Copyright &copy; 2016 Castellfollit Aventura SL (CIF B66703380)",
+      "copyright": "Copyright &copy; 2017 Castellfollit Aventura SL (CIF B66703380)",
       "avis": "Aviso Legal",
       "cancelacions": "Cancelaciones",
       "garantia": "Garantías",
@@ -24,12 +24,16 @@
       "padel": "Pádel/Tenis",
       "escaperoom": "Room Escape",
       "townescape": "Town Escape",
+      "escaperoomdomicili": "RE a Domicilio",
       "paintball": "Paintball",
-      "laser": "Láser Combat",
+      "paintball7": "Paintball +7",
+      "orientacio": "Orientación",
+      "laser": "Làser Combat",
       "buggies": "Buggies",
       "packbuggies": "Pack Buggies",
       "packdespedida": "Pack despedida",
       "packempresa": "Pack empresa",
+      "packamida": "Pack a medida",
       "packdinar": "Almuerzo/desayuno",
       "feina.1": "Quieres trabajar",
       "feina.2": "con nosotros?",

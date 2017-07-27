@@ -1,9 +1,11 @@
 angular.module('aventuraApp')
-    .controller('FortificacionsController', function ($scope,STATIC_URL,$timeout) {
+    .controller('FortificacionsController', function ($scope,STATIC_URL,$timeout,PREU_SENDERISME) {
         'use strict';
 
+        $scope.preu = PREU_SENDERISME+"€";
+
         $timeout(function() {
-            $scope.$parent.$broadcast('preu_post_it', '18€');
+            $scope.$parent.$broadcast('preu_post_it', $scope.preu);
             $scope.$parent.$broadcast('show_collaboradors', false);
         }, 100);
 

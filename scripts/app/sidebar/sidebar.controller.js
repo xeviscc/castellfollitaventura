@@ -25,11 +25,13 @@ angular.module('aventuraApp')
             }
         });
         $scope.$on('show_menu', function (event, data) {
-            if(data.page=='paintball' || data.page=='senderisme' || data.page=='bicicletese'
-                || data.page=='gimcanabtt' || data.page=='padel' || data.page=='segway'
-                || data.page=='escaperoom' || data.page=='townescape'
-                || data.page=='packbuggies' || data.page=='packdespedida'
-                || data.page=='packempresa' || data.page=='packdinar'
+            if(data.page=='paintball' || data.page=='paintball7' || data.page=='orientacio'
+                || data.page=='senderisme' || data.page=='bicicletese'
+                //|| data.page=='gimcanabtt' || data.page=='packbuggies' || data.page=='packdespedida' || data.page=='packempresa'
+                //|| data.page=='padel'
+                || data.page=='segway'
+                || data.page=='escaperoom' || data.page=='townescape' || data.page=='escaperoomdomicili'
+                || data.page=='packdinar' || data.page=='packamida'
                 || data.page=='feina' || data.page=='buggies') {
                 $scope.$parent.$broadcast('hide_menu', 'top');
                 selectMenu(data.page, data.menu);

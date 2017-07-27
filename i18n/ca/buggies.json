@@ -2,7 +2,7 @@
   "buggies": {
     "titol" : "Buggies",
     "descripcio" : "Vine i gaudeix d'una excursió amb buggie. Passeja pels camins de les rodalies i viu l'emoció de conduir un buggie, gaudeix de la naturalesa i el patrimoni cultural que ens envolta.",
-    "preus.0" : "Preu per buggie: 135&euro;",
+    "preus.0" : "Preu per buggie (1h): {{preu}}",
     "nota" : "* Per a poder conduir un buggie s'ha de ser major de 25 anys i tenir més de 2 anys de carnet."
   }
 }

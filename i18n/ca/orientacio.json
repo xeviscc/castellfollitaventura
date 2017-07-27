@@ -1,0 +1,14 @@
+{
+  "orientacio": {
+    "titol": "Orientació",
+    "text1": "Vine a veure si ets capaç de trovar tots els punts en el nostre circuit d'orientació.",
+    "text2": "Els punts estan repartits per una zona al voltant de la nostra ubicació.",
+    "maxim": "* Els grups han de ser de mínim 4 i de màxim 10. Pere a més persones, consultar.",
+    "preus": {
+      "0": "Preu: {{preu}}"
+    },
+    "agilitzar":"Per a poder agilitzar els tràmits, us podeu descarregar i portar complimentats els següents documents:",
+    "responsabilitat":"Descàrrega de responsabilitat, en tots els casos.",
+    "autoritzacio":"Autorització paterna, en cas de ser menor d'edat."
+  }
+}

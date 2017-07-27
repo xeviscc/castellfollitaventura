@@ -1,8 +1,11 @@
 angular.module('aventuraApp')
-    .controller('BicicleteseController', function ($scope,STATIC_URL,$timeout,$state) {
+    .controller('BicicleteseController', function ($scope,STATIC_URL,$timeout,$state,PREU_BICICCLETES_E) {
         'use strict';
+
+        $scope.preu = PREU_BICICCLETES_E+"€";
+
         $timeout(function() {
-            $scope.$parent.$broadcast('preu_post_it', '30€');
+            $scope.$parent.$broadcast('preu_post_it', $scope.preu);
             $scope.$parent.$broadcast('show_collaboradors', false);
             $scope.$parent.$broadcast('show_menu', { 'page': $state.current.name, 'menu': ''});
         }, 100);

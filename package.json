@@ -23,10 +23,17 @@
   },
   "dependencies": {},
   "keywords": [
-    "oci",
-    "paintball",
-    "escape",
-    "room",
-    "senderisme"
+    "oci", "castellfollitaventura", "castellfollit", "aventura",
+    "catalunya", "central", "altaanoia", "altasegarra", "anoia", "segarra",
+    "paintball", "infantil",
+    "escape", "room", "town", "personalitzat", "domicili", "home", "domicilio",
+    "orientació", "orientation", "orientación",
+    "family", "família", "familia",
+    "amigos", "friends", "amics",
+    "senderisme", "hiking", "senderismo",
+    "buggies", "buggy",
+    "btt", "mtb", "btte", "bicicleteselectriques", "electriques", "bicicletes", "bicicleta",
+    "segway",
+    "globus"
   ]
 }

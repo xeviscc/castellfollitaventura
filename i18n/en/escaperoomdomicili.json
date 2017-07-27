@@ -1,0 +1,21 @@
+{
+  "escaperoom": {
+    "titol": "Room Escape Customized",
+    "titol.que":"What a Room Escape is?",
+    "que.text1":"A room escape or escape room is a live game in which a group of people between 2 and 6 members try to escape from a room or more solving a serie of puzzles and riddles in a time of 60 minutes.",
+    "que.text2":"The objective of escape room can also be to find an object.",
+    "titol.beneficis":"Benefits",
+    "benefici.1":"Great for groups to improve communication in families, friends or colleagues. Popularly known as \"Team building\".",
+    "benefici.2":"Enhancing creativity and thinking. It helps to think about things differently. \"Think out of the box\".",
+    "benefici.3":"Transporting you to a different world, wake your wit and mental acuity.",
+    "titol.consells":"Advices",
+    "consell.1":"Communication between team members.",
+    "consell.2":"Control of objects and clues found and used.",
+    "consell.3":"Respect the environment, disassemble, but do not destroy.",
+    "text1": "Castellfollit Adventura gives you the opportunity to bring an escape room to you home, company, meeting room, library, ... You can choose the place, and also the story that will be behind! Do not miss it!",
+    "preus": {
+      "0": "Prices",
+      "1": "The prices are dependant on the situation needs. Contat us!"
+    }
+  }
+}
