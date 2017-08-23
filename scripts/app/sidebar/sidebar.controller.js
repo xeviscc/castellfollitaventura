@@ -29,7 +29,7 @@ angular.module('aventuraApp')
                 || data.page=='senderisme' || data.page=='bicicletese'
                 //|| data.page=='gimcanabtt' || data.page=='packbuggies' || data.page=='packdespedida' || data.page=='packempresa'
                 //|| data.page=='padel'
-                || data.page=='segway'
+                || data.page=='segway' || data.page=='townescapejunior'
                 || data.page=='escaperoom' || data.page=='townescape' || data.page=='escaperoomdomicili'
                 || data.page=='packdinar' || data.page=='packamida'
                 || data.page=='feina' || data.page=='buggies') {

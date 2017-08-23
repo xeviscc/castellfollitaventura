@@ -1,0 +1,29 @@
+{
+  "townescapejunior": {
+    "titol": "Town Escape Junior \"El Elixir de la Eterna Juventud\"",
+    "titol.que":"Que es un Town Escape?",
+    "que.text1":"Un town escape es un juego en vivo en el que un grupo de personas de más de 8 componentes intentarán escapar o encontrar un objeto resolviendo una serie de enigmas y puzles en un tiempo de 90 minutos.",
+    "que.text2":"El objetivo se definirá o bien en la explicación o durante el juego.",
+    "titol.beneficis":"Beneficios",
+    "benefici.1":"Genial para mejorar la comunicación de grupos, tanto familias, amigos o compañeros de trabajo. Conocido popularmente como \"Team building\".",
+    "benefici.2":"Mejorar la creatividad y la forma de pensar. Te ayuda a pensar en las cosas de una manera diferente. \"Think out of the box\".",
+    "benefici.3":"Al transportarte a un ambiente desconocido, despiertas tu ingenio y agudeza mental.",
+    "titol.consells":"Consejos",
+    "consell.1":"Comunicacion entre los miembros del equipo.",
+    "consell.2":"Control de los objetos/pistas encontradas y utilizadas.",
+    "consell.3":"Respetar el entorno, desmontar, pero no destruir.",
+    "text1": "Desde hace muchos siglos, un grupo llamado los Pitagóricos, fundado en el siglo VI aC, con el lema \"los números como principio de todas las cosas\", se protegió uno de los secretos más buscados por la humanidad a lo largo del tiempo. Quizás os suenan más los nombre de sus ramificaciones fundadas siglos más tarde, como pueden ser los Illuminati, fundados en el siglo XVIII (concretamente el 1776) o los Masones, a principios del siglo XVIII.",
+    "text2": "Se dice que una gota del elixir de la eterna juventud te cura de todas las heridas, hasta de la muerte; dos gotas te curan y te rejuvenecen a la edad de más esplendor, física y psíquica; tres gotas, te curan, te rejuvenecen y te da la vida eterna.",
+    "text3": "En algunos círculos aún se cree que Jesús revivió después que le dieran una gota de este elixir.",
+    "text4": "Los Pitagóricos, al ver el poder que podría dar y las guerras que podría provocar, transformó cada goto en pastilla y las escondió en un lugar remoto, en un cofre cerrado por candados mágicos que solo podría ser abierto resolviendo los enigmas más sofisticados. Ni un martillo, ni una cizalla serían capaces de romper el hechizo",
+    "text5": "Desde Julio César hasta Napoleón Bonaparte y Adolf Hitler conquistaron países y lucharon mil batalla intentando encontrar el cofre y hacerse con el elixir.",
+    "text6": "Hace pocos días, unos investigadores consiguieron descifrar la ubicación del cofre. Resultó que este cofre se escondía en algún sitio de Castellfollit de Riubregós. Los investigadores me hicieron custodiar el cofre mientras ellos iban en busca de las claves para abrirlo, però no volvieron nunca más. Despues de indagar qué pasó, se supo que desaparecieron unos 60 minutos después de dejarme el cofre en custodia.",
+    "text7": "Solo pudimos recuperar sus mochilas, pero no sabemos su contenido, así que por eso os pedimos ayuda, para intentar resolver el misterio y ser capaces de abrir el cofre!",
+    "preus": {
+      "0": "Precios",
+      "1": "De 8 a 12 personas: {{preu}}/persona",
+      "2": "De 13 a 16 personas: {{preu}}/persona",
+      "3": "Más de 16 personas: {{preu}}/persona"
+    }
+  }
+}

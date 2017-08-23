@@ -16,6 +16,7 @@ angular.module('aventuraApp')
             $scope.fotos = [
                 { href: "/escaperoom", petita: STATIC_URL+"images/landing/room_escape_210_" + lang + ".jpg", title: "Room Escape", alt: "Room Escape" },
                 { href: "/townescape", petita: STATIC_URL+"images/landing/town_escape_210_" + lang + ".jpg", title: "Town Escape", alt: "Town Escape" },
+                { href: "/townescapejunior", petita: STATIC_URL+"images/landing/town_escape_junior_210_" + lang + ".jpg", title: "Town Escape Junior", alt: "Town Escape Junior" },
                 { href: "/escaperoomdomicili", petita: STATIC_URL+"images/landing/room_escape_domicili_210_" + lang + ".jpg", title: "Room Escape a Domicili", alt: "Room Escape a Domicili" },
                 { href: "/paintball", petita: STATIC_URL+"images/landing/paintball_210_" + lang + ".jpg", title: "Paintball", alt: "Paintball" },
                 { href: "/paintball7", petita: STATIC_URL+"images/landing/paintball7_210_" + lang + ".jpg", title: "Paintball +7", alt: "Paintball +7" },
