@@ -1,0 +1,10 @@
+{
+  "enigmistica": {
+    "titol" : "Digital Enigmistica",
+    "descripcio" : "Do you like to compete? Do you like puzzles? Come and compete with your friends. Who is going to solve all puzzles in time?",
+    "descripcio2" : "Digital enigmistica is a competitive solving puzzle game. Through a mobile application you will have to orientate in the village searching for puzzles and solving them. Randomly some riddles or questions will appear; they will help to be the best group.",
+    "descripcio3" : "The game will be played with groups of 3 or 4 people.",
+    "preus.0" : "Price per person: {{preu}}",
+    "nota" : "* To be able to do the game a smartphone with full battery is required. We will provide Wifi, but if you want, you can install the application Trebus at home. You can find it at Google Play Store or Apple App Store."
+  }
+}

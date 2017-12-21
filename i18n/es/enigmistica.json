@@ -1,0 +1,10 @@
+{
+  "enigmistica": {
+    "titol" : "Enigmística Digital",
+    "descripcio" : "¿Te gusta la competición? ¿Te gustan los enigmas? Ven y compite con tus amigos. Quien resolverá antes todos los enigmas que os presentamos?",
+    "descripcio2" : "Enigmística digital es un juego de resolución de enigmas competitivo. A través de una aplicación de móvil tendrás que orientarte por el pueblo buscando enigmas y resolviendolos. Aleatoreamente iran apareciendo enigmas o preguntas que te ayudaran a ser el mejor grupo.",
+    "descripcio3" : "La actividad se realizará con grupos de 3 o 4 personas.",
+    "preus.0" : "Precio por persona: {{preu}}",
+    "nota" : "* Para poder realizar la actividad se tiene que traer un smartphone con la batería cargada. Disponemos de punto Wifi, pero si queréis, podéis traer l'aplicación Trebus instalada. Podéis encontrarla en la Google Play Store o Apple App Store."
+  }
+}
