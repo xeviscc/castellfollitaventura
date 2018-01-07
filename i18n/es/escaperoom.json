@@ -1,9 +1,9 @@
 {
   "escaperoom": {
-    "titol": "Room Escape \"El Asedio\" (\"El Setge\")",
-    "titol.que":"Que es un Room Escape?",
-    "que.text1":"Un room escape o escape room es un juego en vivo en el que un grupo de personas de entre 2 y 6 componentes intentarán escapar de una o mas habitaciones resolviendo una serie de enigmas y puzles en un tiempo de 60 minutos.",
-    "que.text2":"El objetivo de un room escape también puede ser encontrar un objeto.",
+    "titol": "Room Escape \"El Asedio\"",
+    "titol.que":"¿Que es un Room Escape?",
+    "que.text1":"Un Room Escape o Escape Room es un juego en vivo en el que un grupo de personas de entre 2 y 6 componentes intentarán escapar de una o más habitaciones resolviendo una serie de enigmas y puzles en un tiempo de 60 minutos.",
+    "que.text2":"El objetivo de un Room Escape también puede ser encontrar un objeto.",
     "titol.beneficis":"Beneficios",
     "benefici.1":"Genial para mejorar la comunicación de grupos, tanto familias, amigos o compañeros de trabajo. Conocido popularmente como \"Team building\".",
     "benefici.2":"Mejorar la creatividad y la forma de pensar. Te ayuda a pensar en las cosas de una manera diferente. \"Think out of the box\".",
@@ -12,7 +12,7 @@
     "consell.1":"Comunicacion entre los miembros del equipo.",
     "consell.2":"Control de los objetos/pistas encontradas y utilizadas.",
     "consell.3":"Respetar el entorno, desmontar, pero no destruir.",
-    "text1": "Castellfollit Aventura os presenta un room escape basado en hechos reales. Durante la resolución de los enigmas irás descubriendo que paso durante el bombardeo que sufrió Castellfollit de Riubregós durante el Trienio liberal dirigido por el General Francisco Espoz y Mina. El objetivo de este escape room es intentar salvar al pueblo i escapar del asedio.",
+    "text1": "Castellfollit Aventura os presenta un Room Escape basado en hechos reales. Durante la resolución de los enigmas irás descubriendo que paso durante el bombardeo que sufrió Castellfollit de Riubregós durante el Trienio liberal dirigido por el General Francisco Espoz y Mina. El objetivo de este Escape Room es intentar salvar al pueblo i escapar del asedio.",
     "preus": {
       "0": "Precios",
       "1": "De 2 a 3 personas: 20&euro;/persona",
