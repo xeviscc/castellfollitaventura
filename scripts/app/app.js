@@ -63,38 +63,38 @@ angular.module('aventuraApp', ['ui.router', 'pascalprecht.translate', 'tmh.dynam
         $httpProvider.defaults.xsrfHeaderName = 'X-CSRF-TOKEN';
 
         $urlRouterProvider.otherwise('/');
-        $stateProvider.state('site', {
-            abstract: true,
-            views: {
-                'header@': {
-                    templateUrl: 'scripts/app/header/header.html',
-                    controller: 'HeaderController'
+        $stateProvider
+            .state('site', {
+                abstract: true,
+                views: {
+                    'header@': {
+                        templateUrl: 'scripts/app/header/header.html',
+                        controller: 'HeaderController'
+                    },
+                    'sidebar@': {
+                        templateUrl: 'scripts/app/sidebar/sidebar.html',
+                        controller: 'SidebarController'
+                    },
+                    'menu@': {
+                        templateUrl: 'scripts/app/menu/menu.html',
+                        controller: 'MenuController'
+                    },
+                    'sidebar_r@': {
+                        templateUrl: 'scripts/app/sidebar_r/sidebar_r.html',
+                        controller: 'SidebarRController'
+                    },
+                    'footer@': {
+                        templateUrl: 'scripts/app/footer/footer.html',
+                        controller: 'FooterController'
+                    }
                 },
-                'sidebar@': {
-                    templateUrl: 'scripts/app/sidebar/sidebar.html',
-                    controller: 'SidebarController'
-                },
-                'menu@': {
-                    templateUrl: 'scripts/app/menu/menu.html',
-                    controller: 'MenuController'
-                },
-                'sidebar_r@': {
-                    templateUrl: 'scripts/app/sidebar_r/sidebar_r.html',
-                    controller: 'SidebarRController'
-                },
-                'footer@': {
-                    templateUrl: 'scripts/app/footer/footer.html',
-                    controller: 'FooterController'
+                resolve: {
+                    translatePartialLoader: ['$translate', '$translatePartialLoader', function ($translate, $translatePartialLoader) {
+                        $translatePartialLoader.addPart('global');
+                        return $translate.refresh();
+                    }]
                 }
-            },
-            resolve: {
-                translatePartialLoader: ['$translate', '$translatePartialLoader', function ($translate, $translatePartialLoader) {
-                    $translatePartialLoader.addPart('global');
-                    return $translate.refresh();
-                }]
-            }
-
-        });
+            });
 
         // Initialize angular-translate
         $translateProvider.useLoader('$translatePartialLoader', {

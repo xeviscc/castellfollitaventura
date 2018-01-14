@@ -14,7 +14,7 @@
     "consell.3":"Respect the environment, disassemble, but do not destroy.",
     "text1": "Castellfollit Aventura presents a factual town escape. For solving puzzles you will discover the real history on the abduction of Almodis, that for some estrange reason ended at Castellfollit de Riubregós. The purpose of this town escape reveal the true history that some want to hide.",
     "preus": {
-      "0": "Prices",
+      "0": "Price per person: {{preu}}",
       "1": "From 8 to 12 people: {{preu}}/person",
       "2": "From 13 to 16 people: {{preu}}/person",
       "3": "More than 16 people: {{preu}}/person"

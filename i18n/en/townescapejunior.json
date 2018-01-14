@@ -20,7 +20,7 @@
     "text6": "A few days ago, some researchers managed to decipher the location of the coffer. It turned out that this coffer was hidden in some place of Castellfollit de Riubregós. The researchers made me guard the coffer, while they were looking for the keys to open it, but they never came back. After finding out what happened, it was learned that they disappeared 60 minutes after they left me with the coffer in custody.",
     "text7": "We were only able to recover their backpacks, but we do not know their content, so we ask for help, to try to solve the mystery and be able to open the coffer!",
     "preus": {
-      "0": "Prices",
+      "0": "Price per person: {{preu}}",
       "1": "From 8 to 12 people: {{preu}}/person",
       "2": "From 13 to 16 people: {{preu}}/person",
       "3": "More than 16 people: {{preu}}/person"

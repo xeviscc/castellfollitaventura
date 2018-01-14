@@ -20,7 +20,7 @@
     "text6": "Hace pocos días, unos investigadores consiguieron descifrar la ubicación del cofre. Resultó que este cofre se escondía en algún sitio de Castellfollit de Riubregós. Los investigadores me hicieron custodiar el cofre mientras ellos iban en busca de las claves para abrirlo, pero no volvieron nunca más. Después de indagar qué pasó, se supo que desaparecieron unos 60 minutos después de dejarme el cofre en custodia.",
     "text7": "Solo pudimos recuperar sus mochilas, pero no sabemos su contenido, así que por eso os pedimos ayuda, para intentar resolver el misterio y ser capaces de abrir el cofre!",
     "preus": {
-      "0": "Precios",
+      "0": "Precio por persona: {{preu}}",
       "1": "De 8 a 12 personas: {{preu}}/persona",
       "2": "De 13 a 16 personas: {{preu}}/persona",
       "3": "Más de 16 personas: {{preu}}/persona"

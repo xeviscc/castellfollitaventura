@@ -24,7 +24,7 @@ angular.module('aventuraApp')
                 { href: "/orientacio", petita: STATIC_URL+"images/landing/orientacio_210_" + lang + ".jpg", title: "Orientació", alt: "Orientació" },
                 { href: "/senderisme", petita: STATIC_URL+"images/landing/senderisme_210_" + lang + ".jpg", title: "Senderisme", alt: "Senderisme" },
                 { href: "/bicicletese", petita: STATIC_URL+"images/landing/btt_210_" + lang + ".jpg", title: "BTT Elèctrica", alt: "BTT Elèctrica" },
-                { href: "/segway", petita: STATIC_URL+"images/landing/segway_210_" + lang + ".jpg", title: "Segway", alt: "Segway" },
+                { href: "/segway", petita: STATIC_URL+"images/landing/segway_210_" + lang + ".jpg", title: "Segway", alt: "Segway" }
                 //{ href: "/buggies", petita: STATIC_URL+"images/landing/buggies_210_" + lang + ".jpg", title: "Buggies", alt: "Buggies" },
                 //{ href: "/gloubs", petita: STATIC_URL+"images/landing/gloubs_210_" + lang + ".jpg", title: "Globus", alt: "Globus" }
                 //{ href: "/gimcanabtt", petita: STATIC_URL+"images/landing/gimcana_btt_210_" + lang + ".jpg", title: "Gimcana BTT", alt: "Gimcana BTT" },

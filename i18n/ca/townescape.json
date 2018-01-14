@@ -14,7 +14,7 @@
     "consell.3":"Respectar l'entorn, desmuntar, però no destruir.",
     "text1": "Castellfollit Aventura us presenta un town escape basat en fets reals. Durant la resolució dels enigmes aniràs descobrint quina va ser la història real del rapte d'Almodis, que per alguna estranya raó va anar a parar a Castellfollit de Riubregós. L'objectiu d'aquest town escape és revelar la història que alguns han volgut amagar.",
     "preus": {
-      "0": "Preus",
+      "0": "Preu per persona: {{preu}}",
       "1": "De 8 a 12 persones: {{preu}}/persona;",
       "2": "De 13 a 16 persones: {{preu}}/persona;",
       "3": "Més de 16 persones: {{preu}}/persona;"
