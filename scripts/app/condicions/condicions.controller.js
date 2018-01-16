@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('CondicionsController', function ($timeout,$scope) {
+    .controller('CondicionsController', function ($timeout,$rootScope,$translate,$scope) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('condicions.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $timeout(function() {
             $scope.$parent.$broadcast('show_collaboradors', true);

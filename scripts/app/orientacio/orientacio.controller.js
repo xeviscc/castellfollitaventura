@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('OrientacioController', function ($scope,STATIC_URL,$timeout,$state,$translate,PREU_ORIENTACIO) {
+    .controller('OrientacioController', function ($scope,$rootScope,STATIC_URL,$timeout,$state,$translate,PREU_ORIENTACIO) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('orientacio.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu = PREU_ORIENTACIO+"€";
 

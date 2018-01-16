@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('TownescapeController', function ($scope,$timeout,$state,PREU_TOWN_8_12,PREU_TOWN_12_16,PREU_TOWN_MES_16) {
+    .controller('TownescapeController', function ($scope,$rootScope,$translate,$timeout,$state,PREU_TOWN_8_12,PREU_TOWN_12_16,PREU_TOWN_MES_16) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('townescape.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu_8_12 = PREU_TOWN_8_12+"€";
         $scope.preu_12_16 = PREU_TOWN_12_16+"€";

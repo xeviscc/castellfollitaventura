@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('BttController', function ($scope,$timeout,$state,PREU_BICICCLETES) {
+    .controller('BttController', function ($scope,$rootScope,$translate,$timeout,$state,PREU_BICICCLETES) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('btt.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu = PREU_BICICCLETES+"€";
 

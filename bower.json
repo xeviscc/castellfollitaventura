@@ -19,8 +19,7 @@
     "components-font-awesome": "4.5.0",
     "angular-recaptcha": "2.5.0",
     "angular-cookie-law": "^0.2.3",
-    "moment": "^2.13.0",
-    "angular-ui-router-i18n": "git://github.com/vizo/angular-ui-router-i18n.git"
+    "moment": "^2.13.0"
   },
   "devDependencies": {},
   "resolutions": {

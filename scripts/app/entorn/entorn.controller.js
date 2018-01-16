@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('EntornController', function ($scope, STATIC_URL, $timeout, $state) {
+    .controller('EntornController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,$state) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('entorn.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $timeout(function() {
             $scope.$parent.$broadcast('show_collaboradors', true);

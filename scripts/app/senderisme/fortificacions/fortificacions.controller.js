@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('FortificacionsController', function ($scope,STATIC_URL,$timeout,PREU_SENDERISME) {
+    .controller('FortificacionsController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,PREU_SENDERISME) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('fortificacions.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu = PREU_SENDERISME+"€";
 

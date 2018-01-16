@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('BicicleteseController', function ($scope,STATIC_URL,$timeout,$state,PREU_BICICCLETES_E) {
+    .controller('BicicleteseController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,$state,PREU_BICICCLETES_E) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('bicicletese.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu = PREU_BICICCLETES_E+"€";
 

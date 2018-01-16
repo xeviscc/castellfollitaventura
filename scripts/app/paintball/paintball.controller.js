@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('PaintballController', function ($scope,STATIC_URL,$timeout,$state,$translate,PREU_100,PREU_200,PREU_BOLES_100,PREU_BOLES_200,PREU_BOLES_500,PREU_BOLES_CAIXA) {
+    .controller('PaintballController', function ($scope,$rootScope,STATIC_URL,$timeout,$state,$translate,PREU_100,PREU_200,PREU_BOLES_100,PREU_BOLES_200,PREU_BOLES_500,PREU_BOLES_CAIXA) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('paintball.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu_100 = PREU_100+"€";
         $scope.preu_200 = PREU_200+"€";

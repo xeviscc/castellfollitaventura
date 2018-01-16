@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('ContacteController', function($scope, $state, MailService, $timeout) {
+    .controller('ContacteController', function($scope,$rootScope,$translate,$state,MailService,$timeout) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('contacte.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.enviat = false;
         $timeout(function() {
@@ -8,7 +14,6 @@ angular.module('aventuraApp')
             $scope.$parent.$broadcast('show_menu', { 'page': $state.current.name, 'menu': 'top'});
         }, 100);
         $scope.$parent.$broadcast('show_collaboradors', true);
-
 
         $scope.sendMail = function () {
             var callback = function (data, status, headers, config) {

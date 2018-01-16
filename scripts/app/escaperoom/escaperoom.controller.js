@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('EscaperoomController', function ($scope,$timeout,$state,PREU_ROOM_2_3,PREU_ROOM_4,PREU_ROOM_5_6) {
+    .controller('EscaperoomController', function ($scope,$rootScope,$translate,$timeout,$state,PREU_ROOM_2_3,PREU_ROOM_4,PREU_ROOM_5_6) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('escaperoom.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu_2_3 = PREU_ROOM_2_3+"€";
         $scope.preu_4 = PREU_ROOM_4+"€";

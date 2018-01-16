@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('PackdinarController', function ($scope,STATIC_URL,$timeout,$state,PREU_DINAR_DIARI,PREU_DINAR_FESTIU,PREU_ESMORZAR_DIARI,PREU_ESMORZAR_FESTIU) {
+    .controller('PackdinarController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,$state,PREU_DINAR_DIARI,PREU_DINAR_FESTIU,PREU_ESMORZAR_DIARI,PREU_ESMORZAR_FESTIU) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('packdinar.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu_dinar_diari = PREU_DINAR_DIARI+"€";
         $scope.preu_dinar_festiu = PREU_DINAR_FESTIU+"€";

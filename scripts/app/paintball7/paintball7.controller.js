@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('Paintball7Controller', function ($scope,STATIC_URL,$timeout,$state,$translate,PREU_50,PREU_BOLES_50) {
+    .controller('Paintball7Controller', function ($scope,$rootScope,STATIC_URL,$timeout,$state,$translate,PREU_50,PREU_BOLES_50) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('paintball7.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu_50 = PREU_50+"€";
         $scope.preu_boles_50 = PREU_BOLES_50+"€";

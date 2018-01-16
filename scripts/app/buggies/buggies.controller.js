@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('BuggiesController', function ($scope,STATIC_URL,$timeout,$state,PREU_BUGGIES) {
+    .controller('BuggiesController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,$state,PREU_BUGGIES) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('buggies.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu = PREU_BUGGIES+"€";
 

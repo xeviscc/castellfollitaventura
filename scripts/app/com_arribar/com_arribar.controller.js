@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('ComArribarController', function ($scope,$state) {
+    .controller('ComArribarController', function ($scope,$rootScope,$translate,$state) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('com_arribar.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.$parent.$broadcast('show_collaboradors', true);
         $scope.$parent.$broadcast('show_menu', { 'page': $state.current.name, 'menu': 'top'});

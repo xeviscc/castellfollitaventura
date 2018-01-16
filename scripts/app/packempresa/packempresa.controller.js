@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('PackempresaController', function ($scope,STATIC_URL,$timeout,$state) {
+    .controller('PackempresaController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,$state) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('packempresa.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $timeout(function() {
             $scope.$parent.$broadcast('preu_post_it', '53€');

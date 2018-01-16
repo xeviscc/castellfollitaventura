@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('CabirolController', function ($scope,STATIC_URL,$timeout,PREU_SENDERISME) {
+    .controller('CabirolController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,PREU_SENDERISME) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('cabirol.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu = PREU_SENDERISME+"€";
 

@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-	.controller('SegwayController', function($scope,STATIC_URL,PagamentService,$timeout,$state,PREU_SEGWAY_2,PREU_SEGWAY_3,PREU_SEGWAY_MES_3,PREU_SEGWAY_DIA) {
+	.controller('SegwayController', function($scope,$rootScope,$translate,STATIC_URL,PagamentService,$timeout,$state,PREU_SEGWAY_2,PREU_SEGWAY_3,PREU_SEGWAY_MES_3,PREU_SEGWAY_DIA) {
 		'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('segway.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu_2 = PREU_SEGWAY_2+"€";
         $scope.preu_3 = PREU_SEGWAY_3+"€";

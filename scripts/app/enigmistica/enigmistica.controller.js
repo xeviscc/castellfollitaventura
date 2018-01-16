@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('EnigmisticaController', function ($scope,STATIC_URL,$timeout,$state,PREU_ENIGMISTICA) {
+    .controller('EnigmisticaController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,$state,PREU_ENIGMISTICA) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('enigmistica.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $scope.preu = PREU_ENIGMISTICA+"€";
 

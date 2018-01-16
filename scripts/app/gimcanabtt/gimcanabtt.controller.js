@@ -1,6 +1,12 @@
 angular.module('aventuraApp')
-    .controller('GimcanaBttController', function ($scope,STATIC_URL,$timeout,$state) {
+    .controller('GimcanaBttController', function ($scope,$rootScope,$translate,STATIC_URL,$timeout,$state) {
         'use strict';
+
+        function localizedTitle() {
+            $rootScope.currentPageName = $translate.instant('gimcanabtt.titol');
+        }
+        localizedTitle();
+        $rootScope.$on('languageChanged', localizedTitle);
 
         $timeout(function() {
             $scope.$parent.$broadcast('preu_post_it', '35€');
